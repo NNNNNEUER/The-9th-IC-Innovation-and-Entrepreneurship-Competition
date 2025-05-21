@@ -1,0 +1,8 @@
+numpy
+opencv-python
+PyQt5
+openai
+qtawesome
+pyserial
+ultralytics
+pyttsx3

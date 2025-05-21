@@ -1,0 +1,40 @@
+set_global_assignment -name DEVICE EP1S80F1508C6
+set_global_assignment -name FAMILY Stratix
+set_global_assignment -name INI_VARS "qatm_force_vqm=on;vqmo_gen_svgx_vqm=on"
+set_global_assignment -name TOP_LEVEL_ENTITY comet_ela_top
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "2025-05-20 16:12:10"
+set_global_assignment -name VQM_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/edge_eye_m.vqm"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/comet_ela_top.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_crc.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ctrl.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_input.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ir_register.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_state_machine.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_output_controller_circular.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_output_jtag_arbit.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_parameter.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_ram.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_ram_controller_circular.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_sampleclk_to_TCK.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_ctrl.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_inst.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_TCK_to_sampleclk.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator_element.v"
+set_global_assignment -name VERILOG_FILE "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_state_circular.v"
+set_global_assignment -name MAX_RAM_BLOCKS_M512 0
+set_global_assignment -name MAX_RAM_BLOCKS_MRAM 0
+set_global_assignment -name AUTO_MERGE_PLLS OFF
+set_global_assignment -name AUTO_RAM_RECOGNITION ON
+set_global_assignment -name AUTO_ROM_RECOGNITION ON
+set_global_assignment -name DSP_BLOCK_BALANCING AUTO
+set_global_assignment -name STRATIX_OPTIMIZATION_TECHNIQUE SPEED
+set_global_assignment -name VERILOG_INPUT_VERSION VERILOG_2001
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "edge_eye_m:user_design_inst"
+set_global_assignment -name PARTITION_COLOR 52377 -section_id "edge_eye_m:user_design_inst"
+set_instance_assignment -name PARTITION_HIERARCHY ekt18p9Vzx -to "edge_eye_m:user_design_inst" -section_id "edge_eye_m:user_design_inst"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "comet_ela_signaltap:signaltap_inst"
+set_global_assignment -name PARTITION_COLOR 52377 -section_id "comet_ela_signaltap:signaltap_inst"
+set_instance_assignment -name PARTITION_HIERARCHY ekt18p9Vzx -to "comet_ela_signaltap:signaltap_inst" -section_id "comet_ela_signaltap:signaltap_inst"

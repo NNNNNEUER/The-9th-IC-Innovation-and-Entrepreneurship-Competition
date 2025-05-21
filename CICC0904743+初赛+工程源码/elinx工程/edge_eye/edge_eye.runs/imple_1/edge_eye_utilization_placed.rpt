@@ -1,0 +1,12 @@
+Implementation Status : Successful
+eLinx Version : 3.0 
+Top-level Entity Name : comet_ela_top
+Total LUTs : 6132 / 136160 (5%)
+Total FFs : 4685 / 136160 (3%)
+Total Memorys : 52 / 1200 (4%)
+Total DSPs : 0 / 48 (0%)
+Total PLLs : 2 / 8 (25%)
+Total CLBs : 776 / 13616 (6%)
+Total Pins : 97 / 339 (29%)
+Min Slack : 876
+EndPoints : 2966

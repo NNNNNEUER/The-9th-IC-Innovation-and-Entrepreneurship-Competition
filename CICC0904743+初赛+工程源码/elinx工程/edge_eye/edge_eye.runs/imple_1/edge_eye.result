@@ -1,0 +1,306 @@
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Analysis & Synthesis
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 20 16:12:11 2025
+Info: Command: ehiway_map --read_settings_files=on --write_settings_files=off edge_eye
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info : Parallel Compilation has detected 20 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 14 of the 14 physical processors detected instead.
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/edge_eye_m.vqm
+    Info : Found entity 1: edge_eye_m
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/comet_ela_top.v
+    Info : Found entity 1: comet_ela_top
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_crc.v
+    Info : Found entity 1: comet_ela_crc
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ctrl.v
+    Info : Found entity 1: comet_ela_jtag_ctrl
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_input.v
+    Info : Found entity 1: comet_ela_jtag_input
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ir_register.v
+    Info : Found entity 1: comet_ela_jtag_ir_register
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_state_machine.v
+    Info : Found entity 1: comet_ela_jtag_state_machine
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_output_controller_circular.v
+    Info : Found entity 1: comet_ela_output_controller_circular
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_output_jtag_arbit.v
+    Info : Found entity 1: comet_ela_output_jtag_arbit
+Info : Found 0 design units, including 0 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_parameter.v
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_ram.v
+    Info : Found entity 1: comet_ela_ram
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_ram_controller_circular.v
+    Info : Found entity 1: comet_ela_ram_controller_circular
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_sampleclk_to_tck.v
+    Info : Found entity 1: comet_ela_sampleclk_to_TCK
+
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap.v
+    Info : Found entity 1: comet_ela_signaltap
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_ctrl.v
+    Info : Found entity 1: comet_ela_signaltap_ctrl
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_inst.v
+    Info : Found entity 1: comet_ela_signaltap_inst
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_tck_to_sampleclk.v
+    Info : Found entity 1: comet_ela_TCK_to_sampleclk
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator.v
+    Info : Found entity 1: comet_ela_trigger_comparator
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator_element.v
+    Info : Found entity 1: comet_ela_trigger_comparator_element
+Info : Found 1 design units, including 1 entities, in source file edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_state_circular.v
+    Info : Found entity 1: comet_ela_trigger_state_circular
+Warning : Verilog HDL Parameter Declaration warning at comet_ela_trigger_state_circular.v(38): Parameter Declaration in module "comet_ela_trigger_state_circular" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List
+Warning : Verilog HDL Parameter Declaration warning at comet_ela_output_jtag_arbit.v(32): Parameter Declaration in module "comet_ela_output_jtag_arbit" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List
+Info : Elaborating entity "comet_ela_top" for the top level hierarchy
+Info : Elaborating entity "edge_eye_m" for hierarchy "edge_eye_m:user_design_inst"
+Warning : Memory Initialization File or Hexadecimal (Intel-Format) File "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/db/edge_eye.ram0_ov5640_init_table_rgb_435d6be3.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning : Memory Initialization File or Hexadecimal (Intel-Format) File "G:/jichuangsai/elinx_workspace/edge_eye_final(3)/db/edge_eye.ram0_ov5640_init_table_rgb_435d6be3.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Info : Elaborating entity "comet_ela_signaltap" for hierarchy "comet_ela_signaltap:signaltap_inst"
+Info : Elaborating entity "comet_ela_signaltap_inst" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0"
+Warning : Verilog HDL assignment warning at comet_ela_signaltap_inst.v(94): truncated value with size 32 to match size of target (13)
+Warning : Verilog HDL assignment warning at comet_ela_signaltap_inst.v(96): truncated value with size 32 to match size of target (20)
+Warning : Verilog HDL assignment warning at comet_ela_signaltap_inst.v(97): truncated value with size 32 to match size of target (20)
+Warning : Verilog HDL assignment warning at comet_ela_signaltap_inst.v(98): truncated value with size 32 to match size of target (20)
+Warning : Verilog HDL assignment warning at comet_ela_signaltap_inst.v(99): truncated value with size 32 to match size of target (1)
+Info : Elaborating entity "comet_ela_jtag_ctrl" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_jtag_ctrl:u_comet_ela_jtag_ctrl"
+Info : Elaborating entity "comet_ela_jtag_state_machine" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_jtag_ctrl:u_comet_ela_jtag_ctrl|comet_ela_jtag_state_machine:state_machine_inst"
+Info : Elaborating entity "comet_ela_jtag_ir_register" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_jtag_ctrl:u_comet_ela_jtag_ctrl|comet_ela_jtag_ir_register:ir_register_inst"
+Warning : Verilog HDL assignment warning at comet_ela_jtag_ir_register.v(44): truncated value with size 32 to match size of target (1)
+Info : Elaborating entity "comet_ela_jtag_input" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_jtag_ctrl:u_comet_ela_jtag_ctrl|comet_ela_jtag_input:input_inst"
+Warning : Verilog HDL assignment warning at comet_ela_jtag_input.v(84): truncated value with size 32 to match size of target (12)
+Info : Elaborating entity "comet_ela_signaltap_ctrl" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl"
+Info : Elaborating entity "comet_ela_TCK_to_sampleclk" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_TCK_to_sampleclk:TCK_to_sampleclk_inst"
+Info : Elaborating entity "comet_ela_sampleclk_to_TCK" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_sampleclk_to_TCK:sampleclk_to_TCK_inst"
+Info : Elaborating entity "comet_ela_trigger_comparator" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_trigger_comparator:trigger_comparator_inst"
+Info : Elaborating entity "comet_ela_trigger_comparator_element" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_trigger_comparator:trigger_comparator_inst|comet_ela_trigger_comparator_element:label2[1].trigger_comparator_element_inst"
+Info : Elaborating entity "comet_ela_ram" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular"
+Info : Elaborating entity "altsyncram" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component"
+Info : Elaborated megafunction instantiation "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component"
+Info : Instantiated megafunction "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component" with the following parameter:
+    Info : Parameter "address_aclr_a" = "NONE"
+    Info : Parameter "address_aclr_b" = "NONE"
+    Info : Parameter "address_reg_b" = "CLOCK1"
+    Info : Parameter "indata_aclr_a" = "NONE"
+    Info : Parameter "intended_device_family" = "eHiChip6"
+    Info : Parameter "lpm_type" = "altsyncram"
+    Info : Parameter "numwords_a" = "8192"
+    Info : Parameter "numwords_b" = "8192"
+    Info : Parameter "operation_mode" = "DUAL_PORT"
+    Info : Parameter "outdata_aclr_b" = "NONE"
+    Info : Parameter "outdata_reg_b" = "UNREGISTERED"
+    Info : Parameter "power_up_uninitialized" = "FALSE"
+    Info : Parameter "ram_block_type" = "M4K"
+    Info : Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info : Parameter "widthad_a" = "13"
+    Info : Parameter "widthad_b" = "13"
+    Info : Parameter "width_a" = "13"
+    Info : Parameter "width_b" = "13"
+    Info : Parameter "width_byteena_a" = "1"
+    Info : Parameter "wrcontrol_aclr_a" = "NONE"
+Info : Found 1 design units, including 1 entities, in source file db/altsyncram_o2o1.tdf
+    Info : Found entity 1: altsyncram_o2o1
+Info : Elaborating entity "altsyncram_o2o1" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component|altsyncram_o2o1:auto_generated"
+Info : Found 1 design units, including 1 entities, in source file db/decode_hha.tdf
+    Info : Found entity 1: decode_hha
+Info : Elaborating entity "decode_hha" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component|altsyncram_o2o1:auto_generated|decode_hha:decode2"
+Info : Elaborating entity "decode_hha" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component|altsyncram_o2o1:auto_generated|decode_hha:rden_decode"
+Info : Found 1 design units, including 1 entities, in source file db/mux_ddb.tdf
+    Info : Found entity 1: mux_ddb
+Info : Elaborating entity "mux_ddb" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component|altsyncram_o2o1:auto_generated|mux_ddb:mux3"
+Info : Elaborating entity "comet_ela_trigger_state_circular" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_trigger_state_circular:trigger_state_circular_inst"
+Warning : Verilog HDL assignment warning at comet_ela_trigger_state_circular.v(52): truncated value with size 32 to match size of target (13)
+Info : Verilog HDL Case Statement information at comet_ela_trigger_state_circular.v(63): all case item expressions in this case statement are onehot
+Warning : Verilog HDL assignment warning at comet_ela_trigger_state_circular.v(94): truncated value with size 32 to match size of target (1)
+Info : Elaborating entity "comet_ela_ram_controller_circular" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram_controller_circular:ram_controller_circular_inst"
+Warning : Verilog HDL assignment warning at comet_ela_ram_controller_circular.v(48): truncated value with size 32 to match size of target (13)
+Info : Elaborating entity "comet_ela_output_controller_circular" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_output_controller_circular:output_controller_circular_inst"
+Warning : Verilog HDL or VHDL warning at comet_ela_output_controller_circular.v(53): object "offload_state_done" assigned a value but never read
+Warning : Verilog HDL or VHDL warning at comet_ela_output_controller_circular.v(72): object "crc_data_shift_out" assigned a value but never read
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(106): truncated value with size 32 to match size of target (15)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(108): truncated value with size 32 to match size of target (15)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(114): truncated value with size 42 to match size of target (18)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(132): truncated value with size 32 to match size of target (13)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(134): truncated value with size 32 to match size of target (13)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(162): truncated value with size 32 to match size of target (14)
+Warning : Verilog HDL assignment warning at comet_ela_output_controller_circular.v(211): truncated value with size 32 to match size of target (5)
+Info : Elaborating entity "comet_ela_crc" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_output_controller_circular:output_controller_circular_inst|comet_ela_crc:crc_inst"
+Info : Elaborating entity "comet_ela_output_jtag_arbit" for hierarchy "comet_ela_signaltap:signaltap_inst|comet_ela_output_jtag_arbit:u_comet_ela_output_jtag_arbit"
+Warning : Verilog HDL assignment warning at comet_ela_output_jtag_arbit.v(109): truncated value with size 32 to match size of target (1)
+Warning : Verilog HDL assignment warning at comet_ela_output_jtag_arbit.v(111): truncated value with size 32 to match size of target (1)
+Warning : Verilog HDL assignment warning at comet_ela_output_jtag_arbit.v(202): truncated value with size 32 to match size of target (4)
+Warning : Verilog HDL assignment warning at comet_ela_output_jtag_arbit.v(231): truncated value with size 32 to match size of target (1)
+Info : 2 design partitions require synthesis
+    Info : Partition "Top" requires synthesis because its netlist type is Source File
+    Info : Partition "comet_ela_signaltap:signaltap_inst" requires synthesis because the project database does not contain a post-synthesis netlist for this partition
+Info : No design partitions will skip synthesis in the current incremental compilation
+Info : Using 14 processors to synthesize 2 partitions in parallel
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Analysis & Synthesis
+    Info: Version 3.0 
+    Info: Processing started: Tue May 20 16:12:18 2025
+Info: Command: ehiway_map --parallel=1 --helper=1 --partition=comet_ela_signaltap:signaltap_inst edge_eye -c edge_eye
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Analysis & Synthesis
+    Info: Version 3.0 
+    Info: Processing started: Tue May 20 16:12:18 2025
+Info: Command: ehiway_map --parallel=1 --helper=0 --partition=Top edge_eye -c edge_eye
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the Top
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the Top
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the Top
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the Top
+Info : Starting Logic Optimization and Technology Mapping for Top Partition
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the comet_ela_signaltap:signaltap_inst
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the comet_ela_signaltap:signaltap_inst
+Warning : Output pins are stuck at VCC or GND
+    Warning : Pin "ov5640_rst_n" is stuck at VCC
+    Warning : Pin "ov5640_pwdn" is stuck at GND
+    Warning : Pin "sdram_cke" is stuck at VCC
+    Warning : Pin "sdram_cs_n" is stuck at GND
+    Warning : Pin "hdmi_rgb[0]" is stuck at GND
+    Warning : Pin "hdmi_rgb[1]" is stuck at GND
+    Warning : Pin "hdmi_rgb[2]" is stuck at GND
+    Warning : Pin "hdmi_rgb[8]" is stuck at GND
+    Warning : Pin "hdmi_rgb[9]" is stuck at GND
+    Warning : Pin "hdmi_rgb[16]" is stuck at GND
+    Warning : Pin "hdmi_rgb[17]" is stuck at GND
+    Warning : Pin "hdmi_rgb[18]" is stuck at GND
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the comet_ela_signaltap:signaltap_inst
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the comet_ela_signaltap:signaltap_inst
+Info : Starting Logic Optimization and Technology Mapping for Partition comet_ela_signaltap:signaltap_inst
+Info : 9 registers lost all their fanouts during netlist optimizations.
+Info : Implemented 756 device resources after synthesis - the final resource count might be different
+    Info : Implemented 30 input pins
+    Info : Implemented 1 output pins
+    Info : Implemented 699 logic cells
+    Info : Implemented 26 RAM segments
+Info : Implemented 5629 device resources after synthesis - the final resource count might be different
+    Info : Implemented 16 input pins
+    Info : Implemented 67 output pins
+    Info : Implemented 36 bidirectional pins
+    Info : Implemented 5435 logic cells
+    Info : Implemented 72 RAM segments
+    Info : Implemented 2 PLLs
+    Info : Implemented 1 partitions
+Info: eLinx 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4584 megabytes
+    Info: Processing ended: Tue May 20 16:12:21 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+Info: eLinx 64-Bit Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 4600 megabytes
+    Info: Processing ended: Tue May 20 16:12:22 2025
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
+Info : Finished parallel synthesis of all partitions
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info: eLinx 64-Bit Analysis & Synthesis was successful. 0 errors, 44 warnings
+    Info: Peak virtual memory: 4727 megabytes
+    Info: Processing ended: Tue May 20 16:12:23 2025
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:08
+
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Partition Merge
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 20 16:12:23 2025
+Info: Command: ehiway_cdb --read_settings_files=on --write_settings_files=off edge_eye -c edge_eye --merge=on
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info : Using synthesis netlist for partition "Top"
+Info : Using synthesis netlist for partition "comet_ela_signaltap:signaltap_inst"
+Info : Resolved and merged 2 partition(s)
+Info : Generating hard_block partition "hard_block:auto_generated_inst"
+    Info : Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
+Info : Found 6 ports with constant drivers. For more information, refer to the Partition Merger report
+Warning : Output port clk3 of PLL "edge_eye_m:user_design_inst|clk_gen2:clk_gen2_inst|altpll:altpll_component|pll~I" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Warning : Output port clk0 of PLL "edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|pll" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Info : Implemented 6331 device resources after synthesis - the final resource count might be different
+    Info : Implemented 16 input pins
+    Info : Implemented 67 output pins
+    Info : Implemented 18 bidirectional pins
+    Info : Implemented 6130 logic cells
+    Info : Implemented 98 RAM segments
+    Info : Implemented 2 PLLs
+Info: eLinx 64-Bit Partition Merge was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4649 megabytes
+    Info: Processing ended: Tue May 20 16:12:26 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Netlist Viewers Preprocess
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 20 16:12:26 2025
+Info: Command: ehiway_rpp edge_eye -c edge_eye --netlist_type=atom_map
+Info: eLinx 64-Bit Netlist Viewers Preprocess was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4489 megabytes
+    Info: Processing ended: Tue May 20 16:12:28 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Compiler Database Interface
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 20 16:12:29 2025
+Info: Command: ehiway_cdb edge_eye -c edge_eye --vqm=G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/edge_eye.vqm
+Info : Generated Verilog eLinx Mapping File using post-synthesis netlist
+Warning : Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info : Generated Verilog eLinx Mapping File G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/imple_1/edge_eye.vqm
+Info : Found Compiler Database Interface (ehiway_cdb) options that can modify the eLinx Settings File (.qsf) -- you must specify the --write_settings_files option to update the .qsf
+Info: eLinx 64-Bit Compiler Database Interface was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4611 megabytes
+    Info: Processing ended: Tue May 20 16:12:30 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+Critical Warning : Invalid option value specified for debug clock: \clk_gen:clk_gen|altpll:altpll_component|_clk2
+Critical Warning : Invalid option value specified for debug signals: \pixel_data_processor:pixel_data_processor|pixel_data_valid~0, \ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_done, \pixel_data_processor:pixel_data_processor|pixel_data_valid

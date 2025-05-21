@@ -1,0 +1,9 @@
+rst_n,sys_rst_n,locked
+pclk_bufg_o,ov5640_pclk
+g_rst_p,~locked
+rst_n_sdram,locked,locked3
+sys_init_done,sdram_init_done,cfg_done
+hdmi_rst_n,rst_n_sdram
+hdmi_clk,clk_75m
+hdmi_rgb,rgb_565,rgb_565,rgb_565
+is_skin,data_CB,data_CB,data_CR,data_CR

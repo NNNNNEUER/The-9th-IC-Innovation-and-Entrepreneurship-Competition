@@ -1,0 +1,28 @@
+<trigger_info>
+    <trigger_mode>
+        <clock name="\clk_gen:clk_gen|altpll:altpll_component|_clk2"/>
+        <sample depth="8192"/>
+        <trigger type="circular"/>
+        <trigger position="center"/>
+    </trigger_mode>
+    <triggerdata_input_vec>
+        <wire name="gmii_tx_clk" type="" group="0"/>
+        <wire name="gmii_txen" type="" group="0"/>
+        <wire name="gmii_txd[0]" type="" group="1"/>
+        <wire name="gmii_txd[1]" type="" group="1"/>
+        <wire name="gmii_txd[2]" type="" group="1"/>
+        <wire name="gmii_txd[3]" type="" group="1"/>
+        <wire name="gmii_txd[4]" type="" group="1"/>
+        <wire name="gmii_txd[5]" type="" group="1"/>
+        <wire name="gmii_txd[6]" type="" group="1"/>
+        <wire name="gmii_txd[7]" type="" group="1"/>
+        <wire name="\pixel_data_processor:pixel_data_processor|pixel_data_valid~0" type="" group="0"/>
+        <wire name="\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_done" type="" group="0"/>
+        <wire name="\pixel_data_processor:pixel_data_processor|pixel_data_valid" type="" group="0"/>
+    </triggerdata_input_vec>
+    <trigger_input_vec/>
+    <data_input_vec/>
+    <trigger_condition/>
+    <TriggerSetup/>
+    <Marker/>
+</trigger_info>

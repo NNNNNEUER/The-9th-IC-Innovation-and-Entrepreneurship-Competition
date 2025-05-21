@@ -1,0 +1,8 @@
+valid_en,1'h1
+vsync_rising,~per_frame_vsync_r,per_frame_vsync
+vsync_falling,&per_frame_vsync_r,~per_frame_vsync
+href_falling,&per_frame_href_r,~per_frame_href
+post_frame_vsync,cmos_frame_vsync_r
+post_frame_href,cmos_frame_href_r
+post_frame_clken,cmos_frame_clken_r
+post_img_Y,post_cmos_data

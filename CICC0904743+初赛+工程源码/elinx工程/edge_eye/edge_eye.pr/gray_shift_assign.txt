@@ -1,0 +1,3 @@
+sdr_rd,rd_en,clken,!rst_n
+oclken,clken_d0
+ogray,graya_d0,grayb

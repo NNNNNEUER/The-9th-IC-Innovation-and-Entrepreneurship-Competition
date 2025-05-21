@@ -1,0 +1,249 @@
+Partition Merge report for edge_eye
+Tue May 20 16:12:26 2025
+eLinx 64-Bit Version 3.0 
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Partition Merge Partition Warnings
+  5. Partition Merge Partition Statistics
+  6. Partition Merge Resource Usage Summary
+  7. Partition Merge RAM Summary
+  8. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2006-2024 eHiWay Corporation
+Your use of eHiWay Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the eHiWay Program License 
+Subscription Agreement, eHiWay MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by eHiWay and sold by 
+eHiWay or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Partition Merge Summary                                                      ;
++---------------------------+--------------------------------------------------+
+; Partition Merge Status    ; Successful - Tue May 20 16:12:26 2025            ;
+; eLinx 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name             ; edge_eye                                         ;
+; Top-level Entity Name     ; comet_ela_top                                    ;
+; Family                    ; eHiChip6                                          ;
+; Total logic elements      ; 6,130                                            ;
+; Total pins                ; 101                                              ;
+; Total virtual pins        ; 0                                                ;
+; Total memory bits         ; 210,944                                          ;
+; DSP block 9-bit elements  ; 0                                                ;
+; Total PLLs                ; 2                                                ;
+; Total DLLs                ; 0                                                ;
++---------------------------+--------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                                    ;
++------------------------------------+----------------+-------------------+------------------------+------------------------------------+
+; Partition Name                     ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents                 ;
++------------------------------------+----------------+-------------------+------------------------+------------------------------------+
+; Top                                ; User-created   ; Source File       ; Source File            ;                                    ;
+; comet_ela_signaltap:signaltap_inst ; User-created   ; Post-Synthesis    ; Post-Synthesis         ; comet_ela_signaltap:signaltap_inst ;
+; hard_block:auto_generated_inst     ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst     ;
++------------------------------------+----------------+-------------------+------------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Warnings                                                                                  ;
++-------------------------------------------------------+------------------------------------+------------------------+
+; Port                                                  ; Partition                          ; Info                   ;
++-------------------------------------------------------+------------------------------------+------------------------+
+; comet_ela_signaltap:signaltap_inst|sample_data[12]    ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
+; comet_ela_signaltap:signaltap_inst|sample_data[11]    ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
+; comet_ela_signaltap:signaltap_inst|sample_data[10]    ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
+; comet_ela_signaltap:signaltap_inst|trigger_signal[10] ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
+; comet_ela_signaltap:signaltap_inst|trigger_signal[11] ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
+; comet_ela_signaltap:signaltap_inst|trigger_signal[12] ; comet_ela_signaltap:signaltap_inst ; Driven by constant GND ;
++-------------------------------------------------------+------------------------------------+------------------------+
+Note: The Incremental Compilation Advisor can be used to get more detailed recommendations.
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                       ;
++---------------------------------------------+--------+------------------------------------+--------------------------------+
+; Statistic                                   ; Top    ; comet_ela_signaltap:signaltap_inst ; hard_block:auto_generated_inst ;
++---------------------------------------------+--------+------------------------------------+--------------------------------+
+; Total logic elements                        ; 5431   ; 699                                ; 0                              ;
+;     -- Combinational with no register       ; 1187   ; 258                                ; 0                              ;
+;     -- Register only                        ; 3215   ; 91                                 ; 0                              ;
+;     -- Combinational with a register        ; 1029   ; 350                                ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Logic element usage by number of LUT inputs ;        ;                                    ;                                ;
+;     -- 4 input functions                    ; 0      ; 0                                  ; 0                              ;
+;     -- 3 input functions                    ; 0      ; 0                                  ; 0                              ;
+;     -- 2 input functions                    ; 0      ; 0                                  ; 0                              ;
+;     -- 1 input functions                    ; 0      ; 0                                  ; 0                              ;
+;     -- 0 input functions                    ; 0      ; 0                                  ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Logic elements by mode                      ;        ;                                    ;                                ;
+;     -- normal mode                          ; 0      ; 0                                  ; 0                              ;
+;     -- arithmetic mode                      ; 0      ; 0                                  ; 0                              ;
+;     -- qfbk mode                            ; 0      ; 0                                  ; 0                              ;
+;     -- register cascade mode                ; 0      ; 0                                  ; 0                              ;
+;     -- synchronous clear/load mode          ; 0      ; 0                                  ; 0                              ;
+;     -- asynchronous clear/load mode         ; 0      ; 0                                  ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Total registers                             ; 4244   ; 441                                ; 0                              ;
+; Virtual pins                                ; 0      ; 0                                  ; 0                              ;
+; I/O pins                                    ; 97     ; 4                                  ; 0                              ;
+; DSP block 9-bit elements                    ; 0      ; 0                                  ; 0                              ;
+; Total memory bits                           ; 104448 ; 106496                             ; 0                              ;
+; Total RAM block bits                        ; 0      ; 0                                  ; 0                              ;
+; PLL                                         ; 0      ; 0                                  ; 2                              ;
+;                                             ;        ;                                    ;                                ;
+; Connections                                 ;        ;                                    ;                                ;
+;     -- Input Connections                    ; 1668   ; 199                                ; 2                              ;
+;     -- Registered Input Connections         ; 1634   ; 173                                ; 0                              ;
+;     -- Output Connections                   ; 26     ; 0                                  ; 1843                           ;
+;     -- Registered Output Connections        ; 18     ; 0                                  ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Internal Connections                        ;        ;                                    ;                                ;
+;     -- Total Connections                    ; 20821  ; 3529                               ; 1845                           ;
+;     -- Registered Connections               ; 13168  ; 2048                               ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; External Connections                        ;        ;                                    ;                                ;
+;     -- Top                                  ; 0      ; 24                                 ; 1670                           ;
+;     -- comet_ela_signaltap:signaltap_inst   ; 24     ; 0                                  ; 175                            ;
+;     -- hard_block:auto_generated_inst       ; 1670   ; 175                                ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Partition Interface                         ;        ;                                    ;                                ;
+;     -- Input Ports                          ; 16     ; 30                                 ; 2                              ;
+;     -- Output Ports                         ; 67     ; 1                                  ; 8                              ;
+;     -- Bidir Ports                          ; 18     ; 0                                  ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Registered Ports                            ;        ;                                    ;                                ;
+;     -- Registered Input Ports               ; 0      ; 27                                 ; 0                              ;
+;     -- Registered Output Ports              ; 0      ; 0                                  ; 0                              ;
+;                                             ;        ;                                    ;                                ;
+; Port Connectivity                           ;        ;                                    ;                                ;
+;     -- Input Ports driven by GND            ; 0      ; 6                                  ; 0                              ;
+;     -- Output Ports driven by GND           ; 0      ; 0                                  ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0      ; 0                                  ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0      ; 0                                  ; 0                              ;
+;     -- Input Ports with no Source           ; 0      ; 0                                  ; 0                              ;
+;     -- Output Ports with no Source          ; 0      ; 0                                  ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0      ; 0                                  ; 1                              ;
+;     -- Output Ports with no Fanout          ; 0      ; 0                                  ; 0                              ;
++---------------------------------------------+--------+------------------------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++-----------------------------------------------------------+
+; Partition Merge Resource Usage Summary                    ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Total logic elements                        ; 6130        ;
+;     -- Combinational with no register       ; 1445        ;
+;     -- Register only                        ; 3306        ;
+;     -- Combinational with a register        ; 1379        ;
+;                                             ;             ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 1040        ;
+;     -- 3 input functions                    ; 915         ;
+;     -- 2 input functions                    ; 794         ;
+;     -- 1 input functions                    ; 72          ;
+;     -- 0 input functions                    ; 3           ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 5335        ;
+;     -- arithmetic mode                      ; 795         ;
+;     -- qfbk mode                            ; 0           ;
+;     -- register cascade mode                ; 0           ;
+;     -- synchronous clear/load mode          ; 424         ;
+;     -- asynchronous clear/load mode         ; 1528        ;
+;                                             ;             ;
+; Total registers                             ; 4685        ;
+; Total logic cells in carry chains           ; 872         ;
+; I/O pins                                    ; 101         ;
+; Total memory bits                           ; 210944      ;
+; DSP block 9-bit elements                    ; 0           ;
+; Total PLLs                                  ; 2           ;
+;     -- PLLs                                 ; 2           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; ov5640_pclk ;
+; Maximum fan-out                             ; 3178        ;
+; Total fan-out                               ; 23863       ;
+; Average fan-out                             ; 3.77        ;
++---------------------------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                                                                                                                                                        ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+---------------------------------------------------------+
+; Name                                                                                                                                                                                                                                                                      ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF                                                     ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+---------------------------------------------------------+
+; comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_ram:ram_circular|altsyncram:altsyncram_component|altsyncram_o2o1:auto_generated|ALTSYNCRAM                           ; M4K  ; Simple Dual Port ; 8192         ; 13           ; 8192         ; 13           ; 106496 ; None                                                    ;
+; edge_eye_m:user_design_inst|camera_init:camera_init_inst|ov5640_init_table_rgb:ov5640_init_table_rgb_inst|altsyncram:rom_rtl_0|altsyncram_st71:auto_generated|ALTSYNCRAM                                                                                                  ; AUTO ; ROM              ; 256          ; 24           ; --           ; --           ; 6144   ; db/edge_eye.ram0_ov5640_init_table_rgb_435d6be3.hdl.mif ;
+; edge_eye_m:user_design_inst|eth_top:eth_top_inst|eth_tx_ctrl:eth_tx_ctrl_inst|eth_tx_fifo:eth_tx_fifo|dcfifo_mixed_inst_eth_tx_fifo:dcfifo|dcfifo_inst_eth_tx_fifo:u_dcfifo_inst|dcfifo:u_dcfifo_component|dcfifo_nap1:auto_generated|altsyncram_0961:fifo_ram|ALTSYNCRAM ; M4K  ; Simple Dual Port ; 4096         ; 16           ; 4096         ; 16           ; 65536  ; None                                                    ;
+; edge_eye_m:user_design_inst|sdram_top:sdram_top_inst|fifo_ctrl:fifo_ctrl_inst|fifo_data:rd_fifo_data|dcfifo:dcfifo|dcfifo_3fm1:auto_generated|altsyncram_s861:fifo_ram|ALTSYNCRAM                                                                                         ; M4K  ; Simple Dual Port ; 1024         ; 16           ; 1024         ; 16           ; 16384  ; None                                                    ;
+; edge_eye_m:user_design_inst|sdram_top:sdram_top_inst|fifo_ctrl:fifo_ctrl_inst|fifo_data:wr_fifo_data|dcfifo:dcfifo|dcfifo_3fm1:auto_generated|altsyncram_s861:fifo_ram|ALTSYNCRAM                                                                                         ; M4K  ; Simple Dual Port ; 1024         ; 16           ; 1024         ; 16           ; 16384  ; None                                                    ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+---------------------------------------------------------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Partition Merge
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Tue May 20 16:12:23 2025
+Info: Command: ehiway_cdb --read_settings_files=on --write_settings_files=off edge_eye -c edge_eye --merge=on
+Warning (138025): Another partition is already using a file named "ekt18p9vzx" -- specify a unique name, partition is ignored. Each partition must have a unique file name regardless of path. File names are case-insensitive
+Info (35007): Using synthesis netlist for partition "Top"
+Info (35007): Using synthesis netlist for partition "comet_ela_signaltap:signaltap_inst"
+Info (35002): Resolved and merged 2 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
+Info (35048): Found 6 ports with constant drivers. For more information, refer to the Partition Merger report
+Warning (15579): Output port clk3 of PLL "edge_eye_m:user_design_inst|clk_gen2:clk_gen2_inst|altpll:altpll_component|pll~I" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Warning (15579): Output port clk0 of PLL "edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|pll" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Info (21057): Implemented 6331 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 16 input pins
+    Info (21059): Implemented 67 output pins
+    Info (21060): Implemented 18 bidirectional pins
+    Info (21061): Implemented 6130 logic cells
+    Info (21064): Implemented 98 RAM segments
+    Info (21065): Implemented 2 PLLs
+Info: eLinx 64-Bit Partition Merge was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4649 megabytes
+    Info: Processing ended: Tue May 20 16:12:26 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+

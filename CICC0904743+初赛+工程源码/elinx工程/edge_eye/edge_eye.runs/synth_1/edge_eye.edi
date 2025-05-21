@@ -1,0 +1,60 @@
+2025-05-20 16:11:12,888 [INFO] Copyright (C) 2017-2024 eHiWAY Corporation
+2025-05-20 16:11:12,888 [INFO] Your use of eHiWAY Corporation's design tools, logic functions 
+2025-05-20 16:11:12,888 [INFO] and other software and tools, and its EMPP partner logic 
+2025-05-20 16:11:12,888 [INFO] functions, and any output files from any of the foregoing 
+2025-05-20 16:11:12,888 [INFO] (including device programming or simulation files), and any 
+2025-05-20 16:11:12,888 [INFO] associated documentation or information are expressly subject 
+2025-05-20 16:11:12,888 [INFO] to the terms and conditions of the eHiWAY Program License 
+2025-05-20 16:11:12,888 [INFO] Subscription Agreement, or other applicable license agreement, including, 
+2025-05-20 16:11:12,899 [INFO] without limitation, that your use is for the sole purpose of 
+2025-05-20 16:11:12,899 [INFO] programming logic devices manufactured by eHiWAY and sold by 
+2025-05-20 16:11:12,899 [INFO] eHiWAY or its authorized distributors.  Please refer to the 
+2025-05-20 16:11:12,899 [INFO] applicable agreement for further details.
+2025-05-20 16:11:12,899 [INFO] VENDOR "eHiWAY"
+
+2025-05-20 16:11:12,899 [INFO] PROGRAM "eLinx 64-Bit"
+2025-05-20 16:11:12,899 [INFO] VERSION "Version 3.0.7 Build 1/22/2025 Full Version"
+2025-05-20 16:11:13,224 [INFO] [UCM_UCM_15]:Assignment overwrited: location=PIN_AB12, was PIN_AB12.
+2025-05-20 16:11:13,224 [INFO] [UCM_UCM_15]:Assignment overwrited: ENABLE_BUS_HOLD_CIRCUITRY=OFF, was OFF.
+2025-05-20 16:11:13,543 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2025-05-20 16:11:13,719 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2025-05-20 16:11:13,838 [INFO] [UDM_Nlist_1]:Lauched netlist parser: Checking lpm/series_status_list/psf info...
+2025-05-20 16:11:13,839 [INFO] [UDM_Nlist_1]:Current top_level_entity name is edge_eye.
+2025-05-20 16:11:13,839 [INFO] [UDM_Nlist_1]:Current series name is eHiChip6.
+2025-05-20 16:11:13,839 [INFO] [UDM_Nlist_1]:Current device name is EQ6HL130.
+2025-05-20 16:11:13,841 [INFO] [UDM_Nlist_15]:Begin parsing netlist...
+2025-05-20 16:11:18,442 [INFO] [UDM_udm_parser_1]:ValidWire set have NOT signal \gnd , so port 10169 link gnd signal!
+2025-05-20 16:11:18,503 [INFO] [UDM_Nlist_19]:Check netlist file is normal after Parse netlist file .
+2025-05-20 16:11:18,504 [INFO] [UDM_Nlist_20]:Parse netlist file success.
+2025-05-20 16:11:18,504 [INFO] [UDM_Nlist_21]:Netlist parser time consumed 4.656 second(s).
+2025-05-20 16:11:18,514 [INFO] [UDM_IP_1]:Begin parsing IP file(s)...
+2025-05-20 16:11:18,528 [INFO] [UDM_IP_1]:Parse IP file success.
+2025-05-20 16:11:18,528 [INFO] [UDM_IP_1]:parse_ip_specific complete.
+2025-05-20 16:11:18,551 [INFO] [UDM_Mem_46]:Memory initial file [ db\edge_eye.ram0_ov5640_init_table_rgb_435d6be3.hdl.mif ] is in db file !
+2025-05-20 16:11:18,553 [INFO] [UDM_Mem_1]:parse_mem_initial complete.
+2025-05-20 16:11:18,560 [INFO] udm drc.....
+
+2025-05-20 16:11:18,766 [CRIT] [UCM_M_1]:ov5640_pclk Unconstrained
+
+2025-05-20 16:11:18,766 [CRIT] [UCM_M_1]:\hdmi_top:hdmi_top_inst|hdmi_i2c:hdmi_i2c_inst|hdmi_i2c_ctrl:hdmi_i2c_ctrl_inst|i2c_clk Unconstrained
+
+2025-05-20 16:11:18,863 [INFO] [Packer_Proc_1]:Launched Packer...
+2025-05-20 16:11:29,226 [INFO] [Packer]:Pre-processing run-time is 0.006 seconds.
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: sys_clk
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: sys_rst_n
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: ov5640_pclk
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \clk_gen2:clk_gen2_inst|altpll:altpll_component|_clk4
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \clk_gen:clk_gen|altpll:altpll_component|_clk0
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \clk_gen:clk_gen|altpll:altpll_component|_clk3
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \clk_gen:clk_gen|altpll:altpll_component|_locked
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \hdmi_top:hdmi_top_inst|hdmi_i2c:hdmi_i2c_inst|hdmi_i2c_ctrl:hdmi_i2c_ctrl_inst|i2c_clk
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: \rst_n_sdram~0
+2025-05-20 16:11:29,414 [INFO] CanGlobal_Signal: rst_n
+2025-05-20 16:11:29,659 [INFO] [Packer_Proc_0]:DoPacking, Pack with module. 
+2025-05-20 16:11:29,691 [INFO] [Packer_Proc_0]:PARALLEL PACK begin. 
+2025-05-20 16:11:30,503 [INFO] [Packer_Proc_2]:Packer process is complete.
+2025-05-20 16:11:31,043 [INFO] [UDM_ICAP_1]:Parse Icap file success.
+2025-05-20 16:11:31,043 [INFO] [UDM_ICAP_1]:parse_icap_specific complete.
+2025-05-20 16:11:31,047 [INFO] Writing statistical info to file is completed
+2025-05-20 16:11:31,411 [INFO] [UDM_Save_0]:Save eLinx design check point(.ecp) complete.
+2025-05-20 16:11:35,292 [INFO] [UDM_Write_10]:Write cluster XML file complete.

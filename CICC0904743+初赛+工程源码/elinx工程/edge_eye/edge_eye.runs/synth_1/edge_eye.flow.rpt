@@ -1,0 +1,111 @@
+Flow report for edge_eye
+Tue May 20 16:11:09 2025
+eLinx 64-Bit Version 3.0 
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2006-2024 eHiWay Corporation
+Your use of eHiWay Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the eHiWay Program License 
+Subscription Agreement, eHiWay MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by eHiWay and sold by 
+eHiWay or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++---------------------------+--------------------------------------------------+
+; Flow Status               ; Successful - Tue May 20 16:11:09 2025            ;
+; eLinx 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name             ; edge_eye                                         ;
+; Top-level Entity Name     ; edge_eye                                         ;
+; Family                    ; eHiChip6                                          ;
+; Device                    ; EQ6HL130                                    ;
+; Timing Models             ; Final                                            ;
+; Total logic elements      ; 5,430                                            ;
+; Total pins                ; 97                                               ;
+; Total virtual pins        ; 0                                                ;
+; Total memory bits         ; 104,448                                          ;
+; DSP block 9-bit elements  ; 0                                                ;
+; Total PLLs                ; 2                                                ;
+; Total DLLs                ; 0                                                ;
++---------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/20/2025 16:10:48 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; edge_eye            ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                    ;
++--------------------------------+------------------------------------------------------------------------+----------------+-------------+------------+
+; Assignment Name                ; Value                                                                  ; Default Value  ; Entity Name ; Section Id ;
++--------------------------------+------------------------------------------------------------------------+----------------+-------------+------------+
+; AUTO_MERGE_PLLS                ; Off                                                                    ; On             ; --          ; --         ;
+; COMPILER_SIGNATURE_ID          ; 193775444691095.174772864831844                                        ; --             ; --          ; --         ;
+; INI_VARS                       ; qatm_force_vqm=on;vqmo_gen_svgx_vqm=on                                 ; --             ; --          ; --         ;
+; MAX_RAM_BLOCKS_M512            ; 0                                                                      ; -1 (Unlimited) ; --          ; --         ;
+; MAX_RAM_BLOCKS_MRAM            ; 0                                                                      ; -1 (Unlimited) ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY       ; G:/jichuangsai/elinx_workspace/edge_eye_final(3)/edge_eye.runs/synth_1 ; --             ; --          ; --         ;
+; STRATIX_OPTIMIZATION_TECHNIQUE ; Speed                                                                  ; Balanced       ; --          ; --         ;
++--------------------------------+------------------------------------------------------------------------+----------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4660 MB             ; 00:00:23                           ;
+; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:23                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; LukasLIU         ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+ehiway_map --read_settings_files=on --write_settings_files=off edge_eye
+
+
+

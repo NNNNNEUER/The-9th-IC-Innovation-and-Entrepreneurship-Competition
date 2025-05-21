@@ -1,0 +1,17 @@
+
+State Machine - |comet_ela_top|comet_ela_signaltap:signaltap_inst|comet_ela_output_jtag_arbit:u_comet_ela_output_jtag_arbit|load_state
+Name load_state.done load_state.offlaod_sft load_state.wait_sft load_state.offlaod load_state.arbitration load_state.000001 
+load_state.000001 0 0 0 0 0 0 
+load_state.arbitration 0 0 0 0 1 1 
+load_state.offlaod 0 0 0 1 0 1 
+load_state.wait_sft 0 0 1 0 0 1 
+load_state.offlaod_sft 0 1 0 0 0 1 
+load_state.done 1 0 0 0 0 1 
+
+State Machine - |comet_ela_top|comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_signaltap_ctrl:u_comet_ela_signaltap_ctrl|comet_ela_trigger_state_circular:trigger_state_circular_inst|trigger_state
+Name trigger_state.offloading_status trigger_state.waitingfor_trigger_status trigger_state.post_trigger_status trigger_state.pre_trigger_status trigger_state.001 
+trigger_state.pre_trigger_status 0 0 0 0 0 
+trigger_state.001 0 0 0 1 1 
+trigger_state.post_trigger_status 0 0 1 1 0 
+trigger_state.waitingfor_trigger_status 0 1 0 1 0 
+trigger_state.offloading_status 1 0 0 1 0 

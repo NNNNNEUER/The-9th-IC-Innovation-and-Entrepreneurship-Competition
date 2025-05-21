@@ -1,0 +1,2 @@
+taps0x,line_buffer1,IMG_HDISP
+taps1x,line_buffer2,IMG_HDISP

@@ -1,0 +1,427 @@
+2025-05-20 16:12:55,868 [INFO] Copyright (C) 2017-2024 eHiWAY Corporation
+2025-05-20 16:12:55,868 [INFO] Your use of eHiWAY Corporation's design tools, logic functions 
+2025-05-20 16:12:55,868 [INFO] and other software and tools, and its EMPP partner logic 
+2025-05-20 16:12:55,869 [INFO] functions, and any output files from any of the foregoing 
+2025-05-20 16:12:55,869 [INFO] (including device programming or simulation files), and any 
+2025-05-20 16:12:55,869 [INFO] associated documentation or information are expressly subject 
+2025-05-20 16:12:55,869 [INFO] to the terms and conditions of the eHiWAY Program License 
+2025-05-20 16:12:55,869 [INFO] Subscription Agreement, or other applicable license agreement, including, 
+2025-05-20 16:12:55,869 [INFO] without limitation, that your use is for the sole purpose of 
+2025-05-20 16:12:55,869 [INFO] programming logic devices manufactured by eHiWAY and sold by 
+2025-05-20 16:12:55,869 [INFO] eHiWAY or its authorized distributors.  Please refer to the 
+2025-05-20 16:12:55,869 [INFO] applicable agreement for further details.
+2025-05-20 16:12:55,869 [INFO] VENDOR "eHiWAY"
+
+2025-05-20 16:12:55,869 [INFO] PROGRAM "eLinx 64-Bit"
+2025-05-20 16:12:55,869 [INFO] VERSION "Version 3.0.7 Build 1/22/2025 Full Version"
+2025-05-20 16:12:56,235 [INFO] [UDM_Load_0]:Load eLinx design check point(.ecp) complete.
+2025-05-20 16:12:56,530 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2025-05-20 16:12:56,708 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2025-05-20 16:12:57,165 [INFO] [UCM_UCM_15]:Assignment overwrited: location=PIN_AB12, was PIN_AB12.
+2025-05-20 16:12:57,165 [INFO] [UCM_UCM_15]:Assignment overwrited: ENABLE_BUS_HOLD_CIRCUITRY=OFF, was OFF.
+2025-05-20 16:12:57,197 [INFO] PrePlace design rule check  start record
+
+2025-05-20 16:12:57,197 [INFO] start ucm drc.....
+
+2025-05-20 16:12:57,198 [INFO] start udm drc.....
+
+2025-05-20 16:12:57,198 [INFO] PrePlace design rule check  run times:0.00 s
+
+2025-05-20 16:12:57,502 [CRIT] [UCM_M_1]:ov5640_pclk Unconstrained
+
+2025-05-20 16:12:57,502 [CRIT] [UCM_M_1]:\edge_eye_m:user_design_inst|hdmi_top:hdmi_top_inst|hdmi_i2c:hdmi_i2c_inst|hdmi_i2c_ctrl:hdmi_i2c_ctrl_inst|i2c_clk Unconstrained
+
+2025-05-20 16:12:57,610 [INFO] [Placer]:Launched Placer...
+2025-05-20 16:12:57,610 [DEBUG] [Placer]:Read in placement constraints...
+
+2025-05-20 16:12:57,610 [DEBUG] [Placer]:Read in PlaceOpts from UCM...
+
+2025-05-20 16:12:57,610 [DEBUG] [Placer]:there is no add_cells_to_pblock/add_insts_to_pblock in UCM.
+
+2025-05-20 16:12:57,615 [DEBUG] [Placer]:there is no create_pblock/resize_pblock in UCM.
+
+2025-05-20 16:12:57,620 [DEBUG] [Placer]:NetVec=3179
+
+2025-05-20 16:12:57,620 [DEBUG] [Placer]:vccNum=2
+
+2025-05-20 16:12:57,620 [DEBUG] [Placer]:globalNum=11
+
+2025-05-20 16:12:57,620 [DEBUG] [Placer]:internalNetNum=3877
+
+2025-05-20 16:12:57,620 [DEBUG] [Placer]:emptyNum=6
+
+2025-05-20 16:12:57,633 [DEBUG] [Placer]:blkConnectedNets = 9353
+
+2025-05-20 16:12:57,637 [DEBUG] [Placer]:there is no INCREMENTAL_IMPLEMENTATION settings in UCM.
+
+2025-05-20 16:12:57,721 [DEBUG] [Placer]:Clk sig num is 7
+
+2025-05-20 16:12:57,722 [DEBUG] [Placer]:Interface run-time is 0.112 seconds
+
+2025-05-20 16:12:58,004 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2025-05-20 16:12:58,295 [DEBUG] [Placer]:Creating initial analytic placement for 778 cells, random placement wirelen = 276221
+
+2025-05-20 16:12:58,382 [DEBUG] [Placer]:at initial placer iter 0, wirelen = 8501
+
+2025-05-20 16:12:58,459 [DEBUG] [Placer]:at initial placer iter 1, wirelen = 8433
+
+2025-05-20 16:12:58,534 [DEBUG] [Placer]:at initial placer iter 2, wirelen = 8276
+
+2025-05-20 16:12:58,610 [DEBUG] [Placer]:at initial placer iter 3, wirelen = 8426
+
+2025-05-20 16:12:58,610 [DEBUG] [Placer]:Running main analytical placer.
+
+2025-05-20 16:12:58,660 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 8417, spread = 34889, legal = 35334, best_hpwl = 2147483647.
+
+2025-05-20 16:12:58,680 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 27461, spread = 28926, legal = 29156, best_hpwl = 2147483647.
+
+2025-05-20 16:12:58,771 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 8469, spread = 33024, legal = 31820, best_hpwl = 2147483647.
+
+2025-05-20 16:12:58,980 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 11199, spread = 29227, legal = 29293, best_hpwl = 31820.
+
+2025-05-20 16:12:58,998 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 23648, spread = 25388, legal = 25701, best_hpwl = 31820.
+
+2025-05-20 16:12:59,059 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 8746, spread = 26968, legal = 27186, best_hpwl = 31820.
+
+2025-05-20 16:12:59,269 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 11415, spread = 26391, legal = 26434, best_hpwl = 27186.
+
+2025-05-20 16:12:59,288 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 22104, spread = 23813, legal = 24046, best_hpwl = 27186.
+
+2025-05-20 16:12:59,346 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 8999, spread = 24516, legal = 24062, best_hpwl = 27186.
+
+2025-05-20 16:12:59,557 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 11448, spread = 24199, legal = 24417, best_hpwl = 24062.
+
+2025-05-20 16:12:59,576 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 22287, spread = 24583, legal = 24952, best_hpwl = 24062.
+
+2025-05-20 16:12:59,632 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 9160, spread = 24022, legal = 23936, best_hpwl = 24062.
+
+2025-05-20 16:12:59,836 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 11487, spread = 22194, legal = 22555, best_hpwl = 23936.
+
+2025-05-20 16:12:59,854 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 20022, spread = 22064, legal = 22589, best_hpwl = 23936.
+
+2025-05-20 16:12:59,908 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 9407, spread = 23494, legal = 23742, best_hpwl = 23936.
+
+2025-05-20 16:13:00,110 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 11869, spread = 22280, legal = 22471, best_hpwl = 23742.
+
+2025-05-20 16:13:00,129 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 19683, spread = 21657, legal = 22159, best_hpwl = 23742.
+
+2025-05-20 16:13:00,182 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 9508, spread = 22287, legal = 22607, best_hpwl = 23742.
+
+2025-05-20 16:13:00,384 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 12190, spread = 21960, legal = 22035, best_hpwl = 22607.
+
+2025-05-20 16:13:00,402 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 19683, spread = 22244, legal = 22642, best_hpwl = 22607.
+
+2025-05-20 16:13:00,455 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 9544, spread = 21813, legal = 22070, best_hpwl = 22607.
+
+2025-05-20 16:13:00,660 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 12199, spread = 22699, legal = 22794, best_hpwl = 22070.
+
+2025-05-20 16:13:00,679 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 20770, spread = 23522, legal = 23836, best_hpwl = 22070.
+
+2025-05-20 16:13:00,731 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 9798, spread = 21963, legal = 22293, best_hpwl = 22070.
+
+2025-05-20 16:13:00,935 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 12688, spread = 23513, legal = 23617, best_hpwl = 22070.
+
+2025-05-20 16:13:00,953 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 21321, spread = 23106, legal = 23569, best_hpwl = 22070.
+
+2025-05-20 16:13:01,005 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 9985, spread = 21489, legal = 22173, best_hpwl = 22070.
+
+2025-05-20 16:13:01,203 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 12531, spread = 22646, legal = 22645, best_hpwl = 22070.
+
+2025-05-20 16:13:01,222 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 20473, spread = 23871, legal = 23920, best_hpwl = 22070.
+
+2025-05-20 16:13:01,273 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 9828, spread = 22075, legal = 22557, best_hpwl = 22070.
+
+2025-05-20 16:13:01,473 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 12639, spread = 21855, legal = 22036, best_hpwl = 22070.
+
+2025-05-20 16:13:01,492 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 20027, spread = 23703, legal = 23704, best_hpwl = 22070.
+
+2025-05-20 16:13:01,542 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 9969, spread = 21590, legal = 22372, best_hpwl = 22070.
+
+2025-05-20 16:13:01,748 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 13243, spread = 22207, legal = 22423, best_hpwl = 22070.
+
+2025-05-20 16:13:01,767 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 19912, spread = 21836, legal = 21875, best_hpwl = 22070.
+
+2025-05-20 16:13:01,818 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 10129, spread = 21039, legal = 21262, best_hpwl = 22070.
+
+2025-05-20 16:13:02,021 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 12445, spread = 21598, legal = 21740, best_hpwl = 21262.
+
+2025-05-20 16:13:02,040 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 19796, spread = 21702, legal = 22117, best_hpwl = 21262.
+
+2025-05-20 16:13:02,090 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 10323, spread = 21110, legal = 21550, best_hpwl = 21262.
+
+2025-05-20 16:13:02,289 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 12852, spread = 21916, legal = 22079, best_hpwl = 21262.
+
+2025-05-20 16:13:02,308 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 20238, spread = 21900, legal = 21979, best_hpwl = 21262.
+
+2025-05-20 16:13:02,357 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 10412, spread = 21022, legal = 21365, best_hpwl = 21262.
+
+2025-05-20 16:13:02,557 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 13005, spread = 21257, legal = 21411, best_hpwl = 21262.
+
+2025-05-20 16:13:02,576 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 19744, spread = 21226, legal = 21370, best_hpwl = 21262.
+
+2025-05-20 16:13:02,625 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 10479, spread = 20921, legal = 21276, best_hpwl = 21262.
+
+2025-05-20 16:13:02,825 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 13321, spread = 21048, legal = 21644, best_hpwl = 21262.
+
+2025-05-20 16:13:02,844 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 19775, spread = 22426, legal = 22482, best_hpwl = 21262.
+
+2025-05-20 16:13:02,894 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 10604, spread = 20616, legal = 21065, best_hpwl = 21262.
+
+2025-05-20 16:13:03,095 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 13217, spread = 21028, legal = 21321, best_hpwl = 21065.
+
+2025-05-20 16:13:03,114 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 19538, spread = 21062, legal = 21347, best_hpwl = 21065.
+
+2025-05-20 16:13:03,163 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 10872, spread = 20561, legal = 21174, best_hpwl = 21065.
+
+2025-05-20 16:13:03,363 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 13145, spread = 21300, legal = 21530, best_hpwl = 21065.
+
+2025-05-20 16:13:03,381 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 19965, spread = 22533, legal = 22635, best_hpwl = 21065.
+
+2025-05-20 16:13:03,430 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 10798, spread = 21182, legal = 21763, best_hpwl = 21065.
+
+2025-05-20 16:13:03,628 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 13477, spread = 21558, legal = 21715, best_hpwl = 21065.
+
+2025-05-20 16:13:03,647 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 19899, spread = 21239, legal = 21749, best_hpwl = 21065.
+
+2025-05-20 16:13:03,696 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 11202, spread = 20888, legal = 21714, best_hpwl = 21065.
+
+2025-05-20 16:13:03,896 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 13627, spread = 21557, legal = 21887, best_hpwl = 21065.
+
+2025-05-20 16:13:03,915 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 20121, spread = 21500, legal = 21877, best_hpwl = 21065.
+
+2025-05-20 16:13:03,964 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 11117, spread = 21265, legal = 21765, best_hpwl = 21065.
+
+2025-05-20 16:13:04,168 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 13456, spread = 21666, legal = 22191, best_hpwl = 21065.
+
+2025-05-20 16:13:04,187 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 20670, spread = 23916, legal = 24270, best_hpwl = 21065.
+
+2025-05-20 16:13:04,235 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 11428, spread = 21010, legal = 21830, best_hpwl = 21065.
+
+2025-05-20 16:13:04,436 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 13688, spread = 21254, legal = 21668, best_hpwl = 21065.
+
+2025-05-20 16:13:04,454 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 20060, spread = 23254, legal = 23980, best_hpwl = 21065.
+
+2025-05-20 16:13:04,502 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 11476, spread = 22010, legal = 22497, best_hpwl = 21065.
+
+2025-05-20 16:13:04,699 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 14397, spread = 22527, legal = 23061, best_hpwl = 21065.
+
+2025-05-20 16:13:04,720 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 20743, spread = 23702, legal = 23795, best_hpwl = 21065.
+
+2025-05-20 16:13:04,768 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 11622, spread = 20750, legal = 21588, best_hpwl = 21065.
+
+2025-05-20 16:13:04,963 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 13746, spread = 21155, legal = 21380, best_hpwl = 21065.
+
+2025-05-20 16:13:04,981 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 19932, spread = 23293, legal = 23433, best_hpwl = 21065.
+
+2025-05-20 16:13:05,029 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 11801, spread = 20952, legal = 21548, best_hpwl = 21065.
+
+2025-05-20 16:13:05,224 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 13767, spread = 21420, legal = 21860, best_hpwl = 21065.
+
+2025-05-20 16:13:05,243 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 20626, spread = 23758, legal = 23918, best_hpwl = 21065.
+
+2025-05-20 16:13:05,291 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 11739, spread = 21564, legal = 22031, best_hpwl = 21065.
+
+2025-05-20 16:13:05,493 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 13930, spread = 21380, legal = 21564, best_hpwl = 21065.
+
+2025-05-20 16:13:05,512 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 20283, spread = 23369, legal = 23632, best_hpwl = 21065.
+
+2025-05-20 16:13:05,560 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 11863, spread = 20616, legal = 21428, best_hpwl = 21065.
+
+2025-05-20 16:13:05,761 [DEBUG] [Placer]:Heap at iteration 27, wirelen solved = 14255, spread = 20602, legal = 21338, best_hpwl = 21065.
+
+2025-05-20 16:13:05,779 [DEBUG] [Placer]:Heap at iteration 27, wirelen solved = 19895, spread = 22830, legal = 23291, best_hpwl = 21065.
+
+2025-05-20 16:13:05,827 [DEBUG] [Placer]:Heap at iteration 27, wirelen solved = 12004, spread = 23211, legal = 23667, best_hpwl = 21065.
+
+2025-05-20 16:13:06,023 [DEBUG] [Placer]:Heap at iteration 28, wirelen solved = 15796, spread = 23284, legal = 23735, best_hpwl = 21065.
+
+2025-05-20 16:13:06,042 [DEBUG] [Placer]:Heap at iteration 28, wirelen solved = 21595, spread = 23726, legal = 24090, best_hpwl = 21065.
+
+2025-05-20 16:13:06,089 [DEBUG] [Placer]:Heap at iteration 28, wirelen solved = 12735, spread = 22805, legal = 23781, best_hpwl = 21065.
+
+2025-05-20 16:13:06,287 [DEBUG] [Placer]:Heap at iteration 29, wirelen solved = 15990, spread = 23118, legal = 23313, best_hpwl = 21065.
+
+2025-05-20 16:13:06,306 [DEBUG] [Placer]:Heap at iteration 29, wirelen solved = 20782, spread = 22991, legal = 23198, best_hpwl = 21065.
+
+2025-05-20 16:13:06,354 [DEBUG] [Placer]:Heap at iteration 29, wirelen solved = 12828, spread = 21783, legal = 22930, best_hpwl = 21065.
+
+2025-05-20 16:13:06,560 [DEBUG] [Placer]:Heap at iteration 30, wirelen solved = 15655, spread = 22703, legal = 23298, best_hpwl = 21065.
+
+2025-05-20 16:13:06,579 [DEBUG] [Placer]:Heap at iteration 30, wirelen solved = 21241, spread = 25226, legal = 25307, best_hpwl = 21065.
+
+2025-05-20 16:13:06,628 [DEBUG] [Placer]:Heap at iteration 30, wirelen solved = 12842, spread = 21672, legal = 23165, best_hpwl = 21065.
+
+2025-05-20 16:13:06,832 [DEBUG] [Placer]:Heap at iteration 31, wirelen solved = 15614, spread = 22580, legal = 23292, best_hpwl = 21065.
+
+2025-05-20 16:13:06,851 [DEBUG] [Placer]:Heap at iteration 31, wirelen solved = 21415, spread = 25422, legal = 25427, best_hpwl = 21065.
+
+2025-05-20 16:13:06,899 [DEBUG] [Placer]:Heap at iteration 31, wirelen solved = 12525, spread = 22452, legal = 23460, best_hpwl = 21065.
+
+2025-05-20 16:13:07,098 [DEBUG] [Placer]:Heap at iteration 32, wirelen solved = 15557, spread = 23032, legal = 23812, best_hpwl = 21065.
+
+2025-05-20 16:13:07,117 [DEBUG] [Placer]:Heap at iteration 32, wirelen solved = 21875, spread = 23583, legal = 23909, best_hpwl = 21065.
+
+2025-05-20 16:13:07,164 [DEBUG] [Placer]:Heap at iteration 32, wirelen solved = 13203, spread = 22322, legal = 23372, best_hpwl = 21065.
+
+2025-05-20 16:13:07,361 [DEBUG] [Placer]:Heap at iteration 33, wirelen solved = 15708, spread = 22996, legal = 23639, best_hpwl = 21065.
+
+2025-05-20 16:13:07,380 [DEBUG] [Placer]:Heap at iteration 33, wirelen solved = 21789, spread = 23372, legal = 23824, best_hpwl = 21065.
+
+2025-05-20 16:13:07,427 [DEBUG] [Placer]:Heap at iteration 33, wirelen solved = 13358, spread = 22193, legal = 23779, best_hpwl = 21065.
+
+2025-05-20 16:13:07,625 [DEBUG] [Placer]:Heap at iteration 34, wirelen solved = 15786, spread = 23142, legal = 23587, best_hpwl = 21065.
+
+2025-05-20 16:13:07,643 [DEBUG] [Placer]:Heap at iteration 34, wirelen solved = 21603, spread = 25224, legal = 25198, best_hpwl = 21065.
+
+2025-05-20 16:13:07,691 [DEBUG] [Placer]:Heap at iteration 34, wirelen solved = 13487, spread = 22655, legal = 23939, best_hpwl = 21065.
+
+2025-05-20 16:13:07,895 [DEBUG] [Placer]:Heap at iteration 35, wirelen solved = 16033, spread = 23169, legal = 23580, best_hpwl = 21065.
+
+2025-05-20 16:13:07,913 [DEBUG] [Placer]:Heap at iteration 35, wirelen solved = 21670, spread = 23416, legal = 23791, best_hpwl = 21065.
+
+2025-05-20 16:13:07,963 [DEBUG] [Placer]:Heap at iteration 35, wirelen solved = 13686, spread = 22899, legal = 24086, best_hpwl = 21065.
+
+2025-05-20 16:13:08,164 [DEBUG] [Placer]:Heap at iteration 36, wirelen solved = 16238, spread = 23239, legal = 23676, best_hpwl = 21065.
+
+2025-05-20 16:13:08,183 [DEBUG] [Placer]:Heap at iteration 36, wirelen solved = 21671, spread = 25274, legal = 25244, best_hpwl = 21065.
+
+2025-05-20 16:13:08,230 [DEBUG] [Placer]:Heap at iteration 36, wirelen solved = 13848, spread = 22763, legal = 24002, best_hpwl = 21065.
+
+2025-05-20 16:13:08,549 [DEBUG] [Placer]:Before place detail, current WNS: -297.5.
+
+2025-05-20 16:13:08,932 [DEBUG] [Placer]:ZeroTSwap current WNS: -172.5.
+
+2025-05-20 16:13:08,932 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2025-05-20 16:13:09,514 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:09,900 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:09,949 [DEBUG] [Placer]:Shortest path place get better, current WNS: -110.
+
+2025-05-20 16:13:10,508 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:10,928 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:11,303 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:11,623 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2025-05-20 16:13:11,623 [DEBUG] [Placer]:Shortest path place with max_level, adjust_count: 104 finished.
+
+2025-05-20 16:13:11,623 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2025-05-20 16:13:11,625 [DEBUG] [Placer]:Place run-time is 13.903 seconds
+
+2025-05-20 16:13:11,630 [DEBUG] [Placer]:WriteUDM run-time is 0.005 seconds
+
+2025-05-20 16:13:11,630 [INFO] [Placer]:Placer time consumed 14.02 second<s>.
+2025-05-20 16:13:11,630 [INFO] [Placer]:Placer process is complete.
+2025-05-20 16:13:11,630 [INFO] [Placer]:Start clear place data...
+
+2025-05-20 16:13:11,630 [INFO] [Placer]:Complete clear place successfully...
+
+2025-05-20 16:13:11,761 [INFO] [Router_G_0]:Initializing Arc is completed
+2025-05-20 16:13:11,762 [INFO] [Router_Proc_0]:Launched Router...
+2025-05-20 16:13:11,762 [INFO] [Router_Proc_0]:Processing ucm is completed
+2025-05-20 16:13:12,001 [INFO] [Router_Proc_0]:Processing udm is completed
+2025-05-20 16:13:12,007 [INFO] [Router_C_2]:Initializing ThreadPool is completed
+2025-05-20 16:13:12,156 [INFO] [Router_C_1]: Too many clk signals,Net 204 signal name \comet_ela_signaltap:signaltap_inst|comet_ela_signaltap_inst:comet_ela_signaltap_inst_0|comet_ela_jtag_ctrl:u_comet_ela_jtag_ctrl|comet_ela_jtag_state_machine:state_machine_inst|Reset needs go channel route.
+2025-05-20 16:13:12,156 [INFO] [Router_C_9]:Start try routing vcc and gnd nets.
+2025-05-20 16:13:12,290 [INFO] [Router_C_9]:Start try routing clk nets.
+2025-05-20 16:13:13,745 [INFO] [Router_C_0]:  routed itry: 1
+2025-05-20 16:13:14,012 [INFO] [Router_C_0]:  routed itry: 2
+2025-05-20 16:13:14,909 [INFO] [Router_C_0]:  routed itry: 3
+2025-05-20 16:13:15,869 [INFO] [Router_C_0]:  routed itry: 4
+2025-05-20 16:13:16,207 [INFO] [Router_C_0]:  routed itry: 5
+2025-05-20 16:13:16,641 [INFO] [Router_C_0]:  routed itry: 6
+2025-05-20 16:13:17,403 [INFO] [Router_C_0]:  routed itry: 7
+2025-05-20 16:13:18,353 [INFO] [Router_C_0]:  routed itry: 8
+2025-05-20 16:13:19,279 [INFO] [Router_C_0]:  routed itry: 9
+2025-05-20 16:13:19,681 [INFO] [Router_C_0]:  routed itry: 10
+2025-05-20 16:13:21,323 [INFO] [Router_C_0]:  routed itry: 11
+2025-05-20 16:13:22,400 [INFO] [Router_C_0]:  routed itry: 12
+2025-05-20 16:13:23,950 [INFO] [Router_C_0]:  routed itry: 13
+2025-05-20 16:13:24,324 [INFO] [Router_C_0]:  routed itry: 14
+2025-05-20 16:13:27,277 [INFO] [Router_C_0]:  routed itry: 15
+2025-05-20 16:13:28,089 [INFO] [Router_C_0]:  routed itry: 16
+2025-05-20 16:13:29,035 [INFO] [Router_C_0]:  routed itry: 17
+2025-05-20 16:13:29,398 [INFO] [Router_C_0]:  routed itry: 18
+2025-05-20 16:13:30,511 [INFO] [Router_C_0]:  routed itry: 19
+2025-05-20 16:13:31,618 [INFO] [Router_C_0]:  routed itry: 20
+2025-05-20 16:13:32,069 [INFO] [Router_C_0]:  routed itry: 21
+2025-05-20 16:13:32,364 [INFO] [Router_C_0]:  routed itry: 22
+2025-05-20 16:13:33,055 [INFO] [Router_C_0]:  routed itry: 23
+2025-05-20 16:13:33,443 [INFO] [Router_C_0]:  routed itry: 24
+2025-05-20 16:13:34,349 [INFO] [Router_C_0]:  routed itry: 25
+2025-05-20 16:13:34,743 [INFO] [Router_C_0]:  routed itry: 26
+2025-05-20 16:13:38,106 [INFO] [Router_C_0]:  routed itry: 27
+2025-05-20 16:13:38,519 [INFO] [Router_C_0]:  routed itry: 28
+2025-05-20 16:13:38,958 [INFO] [Router_C_0]:  routed itry: 29
+2025-05-20 16:13:42,340 [INFO] [Router_C_0]:  routed itry: 30
+2025-05-20 16:13:42,742 [INFO] [Router_C_0]:  routed itry: 31
+2025-05-20 16:13:43,130 [INFO] [Router_C_0]:  routed itry: 32
+2025-05-20 16:13:43,348 [INFO] [Router_C_0]:  routed itry: 33
+2025-05-20 16:13:43,568 [INFO] [Router_C_0]:  routed itry: 34
+2025-05-20 16:13:47,374 [INFO] [Router_C_0]:  routed itry: 35
+2025-05-20 16:13:51,198 [INFO] [Router_C_0]:  routed itry: 36
+2025-05-20 16:13:52,190 [INFO] [Router_C_0]:  routed itry: 37
+2025-05-20 16:13:52,458 [INFO] [Router_C_0]:  routed itry: 38
+2025-05-20 16:13:52,714 [INFO] [Router_C_0]:  routed itry: 39
+2025-05-20 16:13:52,940 [INFO] [Router_C_0]:  routed itry: 40
+2025-05-20 16:13:53,351 [INFO] [Router_C_0]:  routed itry: 41
+2025-05-20 16:13:57,745 [INFO] [Router_C_0]:  routed itry: 42
+2025-05-20 16:13:58,058 [INFO] [Router_C_0]:  routed itry: 43
+2025-05-20 16:13:58,383 [INFO] [Router_C_0]:  routed itry: 44
+2025-05-20 16:13:58,814 [INFO] [Router_C_0]:  routed itry: 45
+2025-05-20 16:13:59,093 [INFO] [Router_C_0]:  routed itry: 46
+2025-05-20 16:13:59,391 [INFO] [Router_C_0]:  routed itry: 47
+2025-05-20 16:14:03,076 [INFO] [Router_C_0]:  routed itry: 48
+2025-05-20 16:14:03,427 [INFO] [Router_C_0]:  routed itry: 49
+2025-05-20 16:14:03,730 [INFO] [Router_C_0]:  routed itry: 50
+2025-05-20 16:14:04,029 [INFO] [Router_C_0]:  routed itry: 51
+2025-05-20 16:14:04,308 [INFO] [Router_C_0]:  routed itry: 52
+2025-05-20 16:14:08,004 [INFO] [Router_C_0]:  routed itry: 53
+2025-05-20 16:14:08,219 [INFO] [Router_C_0]:  routed itry: 54
+2025-05-20 16:14:08,632 [INFO] [Router_C_0]:  routed itry: 55
+2025-05-20 16:14:08,918 [INFO] [Router_C_0]:  routed itry: 56
+2025-05-20 16:14:09,219 [INFO] [Router_C_0]:  routed itry: 57
+2025-05-20 16:14:13,465 [INFO] [Router_C_0]:  routed itry: 58
+2025-05-20 16:14:13,793 [INFO] [Router_C_0]:  routed itry: 59
+2025-05-20 16:14:15,318 [INFO] [Router_C_0]:  routed itry: 60
+2025-05-20 16:14:15,319 [INFO] [Router_G_0]:Try to reduce clk num.Itry: 
+
+2025-05-20 16:14:15,319 [INFO] [Router_G_0]:clk net: 5960 go channel route!
+
+2025-05-20 16:14:15,349 [INFO] [Router_C_10]:Try routing clk nets is successful.
+2025-05-20 16:14:16,479 [INFO] [Router_C_0]:  routed itry: 1
+2025-05-20 16:14:16,805 [INFO] [Router_C_0]:  routed itry: 2
+2025-05-20 16:14:17,169 [INFO] [Router_C_0]:  routed itry: 3
+2025-05-20 16:14:17,485 [INFO] [Router_C_0]:  routed itry: 4
+2025-05-20 16:14:17,749 [INFO] [Router_C_0]:  routed itry: 5
+2025-05-20 16:14:17,980 [INFO] [Router_C_0]:  routed itry: 6
+2025-05-20 16:14:18,182 [INFO] [Router_C_0]:  routed itry: 7
+2025-05-20 16:14:18,212 [INFO] [Router_C_5]:Start fixing setup violation connections.
+2025-05-20 16:14:18,423 [INFO] [Router_C_4]:Route:fix hold violation begin...
+2025-05-20 16:14:18,773 [INFO] [Router_C_5]:Route:fix hold violation end.
+2025-05-20 16:14:18,775 [INFO] Channel routing is completed
+2025-05-20 16:14:19,230 [INFO] Internal routing is completed
+2025-05-20 16:14:19,294 [INFO] [BitGen_Proc_6]:Launched bram extraction...
+2025-05-20 16:14:19,404 [INFO] [BitGen_Proc_7]:Bram extraction success.
+2025-05-20 16:14:19,404 [INFO] [BitGen_Proc_8]:Launched bram configuration...
+2025-05-20 16:14:19,412 [INFO] [BitGen_Proc_9]:Bram configuration success.
+2025-05-20 16:14:19,413 [INFO] [BitGen_Proc_10]:Bram processing total time consumed 0.109 second(s).
+2025-05-20 16:14:20,569 [INFO] ClockName: sys_clk ClockFmax: 354.988(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: \edge_eye_m:user_design_inst|clk_gen2:clk_gen2_inst|altpll:altpll_component|_clk4 ClockFmax: 172.325(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: \edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk0 ClockFmax: 140.371(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: \edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk2 ClockFmax: 144.383(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: \edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk3 ClockFmax: 142.167(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: ov5640_pclk ClockFmax: 122.354(MHz)
+2025-05-20 16:14:20,569 [INFO] ClockName: \edge_eye_m:user_design_inst|hdmi_top:hdmi_top_inst|hdmi_i2c:hdmi_i2c_inst|hdmi_i2c_ctrl:hdmi_i2c_ctrl_inst|i2c_clk ClockFmax: 239.406(MHz)
+2025-05-20 16:14:21,312 [INFO] WNS: 0.000 ns WHS: 0.000 ns TNS:0.000 ns THS:0.000 ns
+2025-05-20 16:14:22,235 [INFO] [Router_Proc_2]:Write routing to file is completed.Router time consumed 66.0688 second(s).
+2025-05-20 16:14:22,357 [INFO] [Router_Proc_2]:Write routing to udm is completed.Router time consumed 66.0688 second(s).
+2025-05-20 16:14:22,362 [INFO] Writing statistical info to file is completed
+2025-05-20 16:14:22,412 [INFO] Delete Interface is completed
+2025-05-20 16:14:23,124 [INFO] [UDM_Save_0]:Save eLinx design check point(.ecp) complete.

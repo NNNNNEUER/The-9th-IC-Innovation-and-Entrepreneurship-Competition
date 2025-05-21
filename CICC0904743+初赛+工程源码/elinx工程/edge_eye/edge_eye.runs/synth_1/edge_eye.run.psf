@@ -1,0 +1,7 @@
+source $vecdir/edge_eye.srcs/sources_1/ip/fifo_data/fifo_data.edc
+read_sdc $vecdir/edge_eye.srcs/sources_1/ip/fifo_data/fifo_data.edc
+source $vecdir/edge_eye.srcs/sources_1/ip/eth_tx_fifo/eth_tx_fifo.edc
+read_sdc $vecdir/edge_eye.srcs/sources_1/ip/eth_tx_fifo/eth_tx_fifo.edc
+source $vecdir/edge_eye.srcs/constrs_1/new/edge_eye.edc
+read_sdc $vecdir/edge_eye.srcs/constrs_1/new/edge_eye.edc
+set_global_assignment -name TARGET_CONSTRAINT_FILE $vecdir/edge_eye.srcs/constrs_1/new/edge_eye.edc

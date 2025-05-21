@@ -1,0 +1,929 @@
+#blk_name	x	y	z	index
+stratix_clb0	54	27	0	#0
+stratix_clb1	54	26	0	#1
+stratix_clb2	49	21	0	#2
+stratix_clb3	49	20	0	#3
+stratix_clb4	48	22	0	#4
+stratix_clb5	48	21	0	#5
+stratix_clb6	52	25	0	#6
+stratix_clb7	52	24	0	#7
+stratix_mem8	50	21	0	#8
+stratix_mem9	50	13	0	#9
+stratix_mem10	50	16	0	#10
+stratix_mem11	50	9	0	#11
+stratix_mem12	50	11	0	#12
+stratix_mem13	50	14	0	#13
+stratix_mem14	50	6	0	#14
+stratix_mem15	50	20	0	#15
+stratix_mem16	50	19	0	#16
+stratix_mem17	50	17	0	#17
+stratix_mem18	38	24	0	#18
+stratix_mem19	38	25	0	#19
+stratix_mem20	38	20	0	#20
+stratix_mem21	38	21	0	#21
+stratix_mem22	50	12	0	#22
+stratix_mem23	50	15	0	#23
+stratix_mem24	50	8	0	#24
+stratix_mem25	50	7	0	#25
+stratix_mem26	38	19	0	#26
+stratix_mem27	38	23	0	#27
+stratix_mem28	38	26	0	#28
+stratix_mem29	50	18	0	#29
+stratix_mem30	38	29	0	#30
+stratix_mem31	38	28	0	#31
+stratix_mem32	38	27	0	#32
+stratix_mem33	38	22	0	#33
+stratix_clb34	47	18	0	#34
+stratix_clb35	47	17	0	#35
+stratix_clb36	53	20	0	#36
+stratix_clb37	53	19	0	#37
+stratix_clb38	27	22	0	#38
+stratix_clb39	27	21	0	#39
+stratix_clb40	29	18	0	#40
+stratix_clb41	29	17	0	#41
+stratix_clb42	26	21	0	#42
+stratix_clb43	26	20	0	#43
+stratix_clb44	21	15	0	#44
+stratix_clb45	21	14	0	#45
+stratix_clb46	25	24	0	#46
+stratix_clb47	25	23	0	#47
+stratix_clb48	21	17	0	#48
+stratix_clb49	21	16	0	#49
+stratix_clb50	21	19	0	#50
+stratix_clb51	21	18	0	#51
+stratix_clb52	27	20	0	#52
+stratix_clb53	27	19	0	#53
+stratix_clb54	28	23	0	#54
+stratix_clb55	28	22	0	#55
+stratix_clb56	24	24	0	#56
+stratix_clb57	24	23	0	#57
+stratix_clb58	29	15	0	#58
+stratix_clb59	29	14	0	#59
+stratix_clb60	28	19	0	#60
+stratix_clb61	28	18	0	#61
+stratix_clb62	27	24	0	#62
+stratix_clb63	27	23	0	#63
+stratix_clb64	29	23	0	#64
+stratix_clb65	29	22	0	#65
+stratix_clb66	31	20	0	#66
+stratix_clb67	31	19	0	#67
+stratix_clb68	28	17	0	#68
+stratix_clb69	28	16	0	#69
+stratix_clb70	24	19	0	#70
+stratix_clb71	24	18	0	#71
+stratix_clb72	25	21	0	#72
+stratix_clb73	25	20	0	#73
+stratix_clb74	31	18	0	#74
+stratix_clb75	31	17	0	#75
+stratix_clb76	21	21	0	#76
+stratix_clb77	21	20	0	#77
+stratix_clb78	43	16	0	#78
+stratix_clb79	43	15	0	#79
+stratix_clb80	109	13	0	#80
+stratix_clb81	109	12	0	#81
+stratix_clb82	109	11	0	#82
+stratix_clb83	110	15	0	#83
+stratix_clb84	108	17	0	#84
+stratix_clb85	108	16	0	#85
+stratix_clb86	108	15	0	#86
+stratix_clb87	108	14	0	#87
+stratix_clb88	110	13	0	#88
+stratix_clb89	115	13	0	#89
+stratix_clb90	115	12	0	#90
+stratix_mem91	118	14	0	#91
+stratix_mem92	118	15	0	#92
+stratix_clb93	44	20	0	#93
+stratix_clb94	42	22	0	#94
+stratix_clb95	42	21	0	#95
+stratix_mem96	38	4	0	#96
+stratix_mem97	38	14	0	#97
+stratix_mem98	38	3	0	#98
+stratix_mem99	38	15	0	#99
+stratix_mem100	38	8	0	#100
+stratix_mem101	38	11	0	#101
+stratix_mem102	38	7	0	#102
+stratix_mem103	38	16	0	#103
+stratix_mem104	38	5	0	#104
+stratix_mem105	38	18	0	#105
+stratix_mem106	38	9	0	#106
+stratix_mem107	38	13	0	#107
+stratix_mem108	38	6	0	#108
+stratix_mem109	38	17	0	#109
+stratix_mem110	38	12	0	#110
+stratix_mem111	38	10	0	#111
+stratix_clb112	40	21	0	#112
+stratix_clb113	40	20	0	#113
+stratix_clb114	44	24	0	#114
+stratix_clb115	44	23	0	#115
+stratix_clb116	42	20	0	#116
+stratix_clb117	42	19	0	#117
+stratix_clb118	44	22	0	#118
+stratix_clb119	44	21	0	#119
+stratix_clb120	43	13	0	#120
+stratix_clb121	41	21	0	#121
+stratix_clb122	41	20	0	#122
+stratix_clb123	42	12	0	#123
+stratix_clb124	42	11	0	#124
+stratix_clb125	48	11	0	#125
+stratix_clb126	45	11	0	#126
+stratix_clb127	134	12	0	#127
+stratix_clb128	135	13	0	#128
+stratix_clb129	132	12	0	#129
+stratix_clb130	31	30	0	#130
+stratix_clb131	31	29	0	#131
+stratix_clb132	33	27	0	#132
+stratix_clb133	33	26	0	#133
+stratix_clb134	44	16	0	#134
+stratix_clb135	44	15	0	#135
+stratix_clb136	35	13	0	#136
+stratix_clb137	33	15	0	#137
+stratix_clb138	33	12	0	#138
+stratix_clb139	33	11	0	#139
+stratix_clb140	32	15	0	#140
+stratix_clb141	32	14	0	#141
+stratix_clb142	34	15	0	#142
+stratix_clb143	33	17	0	#143
+stratix_clb144	37	12	0	#144
+stratix_clb145	31	15	0	#145
+stratix_clb146	33	13	0	#146
+stratix_clb147	32	13	0	#147
+stratix_clb148	34	12	0	#148
+stratix_clb149	36	16	0	#149
+stratix_clb150	34	14	0	#150
+stratix_clb151	34	13	0	#151
+stratix_clb152	32	17	0	#152
+stratix_clb153	32	16	0	#153
+stratix_clb154	25	26	0	#154
+stratix_clb155	25	25	0	#155
+stratix_clb156	27	31	0	#156
+stratix_clb157	27	30	0	#157
+stratix_mem158	22	30	0	#158
+stratix_mem159	22	31	0	#159
+stratix_mem160	22	28	0	#160
+stratix_mem161	22	29	0	#161
+stratix_clb162	26	36	0	#162
+stratix_clb163	27	37	0	#163
+stratix_clb164	31	26	0	#164
+stratix_mem165	22	14	0	#165
+stratix_mem166	22	15	0	#166
+stratix_mem167	22	13	0	#167
+stratix_mem168	22	12	0	#168
+stratix_clb169	29	12	0	#169
+stratix_clb170	27	16	0	#170
+stratix_clb171	28	12	0	#171
+stratix_clb172	27	17	0	#172
+stratix_clb173	25	16	0	#173
+stratix_clb174	26	35	0	#174
+stratix_clb175	21	36	0	#175
+stratix_clb176	21	35	0	#176
+stratix_clb177	28	29	0	#177
+stratix_clb178	21	26	0	#178
+stratix_clb179	54	28	0	#179
+stratix_clb180	54	29	0	#180
+stratix_clb181	53	28	0	#181
+stratix_clb182	57	27	0	#182
+stratix_clb183	54	23	0	#183
+stratix_clb184	54	24	0	#184
+stratix_clb185	55	21	0	#185
+stratix_clb186	55	22	0	#186
+stratix_clb187	56	23	0	#187
+stratix_clb188	57	18	0	#188
+stratix_clb189	56	18	0	#189
+stratix_clb190	56	15	0	#190
+stratix_clb191	55	12	0	#191
+stratix_clb192	53	16	0	#192
+stratix_clb193	56	17	0	#193
+stratix_clb194	55	19	0	#194
+stratix_clb195	53	23	0	#195
+stratix_clb196	55	18	0	#196
+stratix_clb197	56	19	0	#197
+stratix_clb198	55	24	0	#198
+stratix_clb199	55	23	0	#199
+stratix_clb200	56	25	0	#200
+stratix_clb201	55	28	0	#201
+stratix_clb202	52	12	0	#202
+stratix_clb203	43	23	0	#203
+stratix_clb204	54	18	0	#204
+stratix_clb205	54	16	0	#205
+stratix_clb206	55	17	0	#206
+stratix_clb207	55	16	0	#207
+stratix_clb208	55	13	0	#208
+stratix_clb209	54	13	0	#209
+stratix_clb210	53	21	0	#210
+stratix_clb211	54	20	0	#211
+stratix_clb212	54	22	0	#212
+stratix_clb213	47	22	0	#213
+stratix_clb214	47	21	0	#214
+stratix_clb215	49	22	0	#215
+stratix_clb216	48	23	0	#216
+stratix_clb217	49	25	0	#217
+stratix_clb218	53	26	0	#218
+stratix_clb219	54	25	0	#219
+stratix_clb220	53	24	0	#220
+stratix_clb221	47	24	0	#221
+stratix_clb222	53	25	0	#222
+stratix_clb223	55	26	0	#223
+stratix_clb224	48	25	0	#224
+stratix_clb225	48	26	0	#225
+stratix_clb226	49	23	0	#226
+stratix_clb227	49	27	0	#227
+stratix_clb228	49	26	0	#228
+stratix_clb229	48	27	0	#229
+stratix_clb230	47	25	0	#230
+stratix_clb231	49	24	0	#231
+stratix_clb232	48	24	0	#232
+stratix_clb233	55	27	0	#233
+stratix_clb234	53	27	0	#234
+stratix_clb235	52	26	0	#235
+stratix_clb236	47	26	0	#236
+stratix_clb237	47	27	0	#237
+stratix_clb238	53	29	0	#238
+stratix_clb239	48	19	0	#239
+stratix_clb240	46	21	0	#240
+stratix_clb241	48	17	0	#241
+stratix_clb242	54	21	0	#242
+stratix_clb243	52	21	0	#243
+stratix_clb244	48	20	0	#244
+stratix_clb245	52	23	0	#245
+stratix_clb246	54	12	0	#246
+stratix_clb247	54	14	0	#247
+stratix_clb248	55	11	0	#248
+stratix_clb249	55	15	0	#249
+stratix_clb250	55	14	0	#250
+stratix_clb251	54	15	0	#251
+stratix_clb252	57	17	0	#252
+stratix_clb253	54	19	0	#253
+stratix_clb254	53	18	0	#254
+stratix_clb255	53	17	0	#255
+stratix_clb256	53	15	0	#256
+stratix_clb257	53	11	0	#257
+stratix_clb258	54	17	0	#258
+stratix_clb259	52	14	0	#259
+stratix_clb260	52	20	0	#260
+stratix_clb261	52	19	0	#261
+stratix_clb262	52	18	0	#262
+stratix_clb263	49	19	0	#263
+stratix_clb264	34	17	0	#264
+stratix_clb265	33	18	0	#265
+stratix_clb266	34	16	0	#266
+stratix_clb267	31	21	0	#267
+stratix_clb268	27	13	0	#268
+stratix_clb269	27	14	0	#269
+stratix_clb270	29	19	0	#270
+stratix_clb271	27	18	0	#271
+stratix_clb272	25	19	0	#272
+stratix_clb273	25	22	0	#273
+stratix_clb274	26	19	0	#274
+stratix_clb275	29	13	0	#275
+stratix_clb276	28	14	0	#276
+stratix_clb277	42	13	0	#277
+stratix_clb278	24	21	0	#278
+stratix_clb279	28	20	0	#279
+stratix_clb280	28	21	0	#280
+stratix_clb281	26	18	0	#281
+stratix_clb282	24	20	0	#282
+stratix_clb283	43	11	0	#283
+stratix_clb284	40	13	0	#284
+stratix_clb285	40	14	0	#285
+stratix_clb286	40	12	0	#286
+stratix_clb287	101	12	0	#287
+stratix_clb288	133	11	0	#288
+stratix_clb289	129	12	0	#289
+stratix_clb290	107	11	0	#290
+stratix_clb291	129	11	0	#291
+stratix_clb292	123	11	0	#292
+stratix_clb293	32	19	0	#293
+stratix_clb294	32	18	0	#294
+stratix_clb295	32	20	0	#295
+stratix_clb296	31	31	0	#296
+stratix_clb297	31	38	0	#297
+stratix_clb298	41	33	0	#298
+stratix_clb299	42	33	0	#299
+stratix_clb300	43	33	0	#300
+stratix_clb301	44	33	0	#301
+stratix_clb302	43	34	0	#302
+stratix_clb303	44	34	0	#303
+stratix_clb304	43	32	0	#304
+stratix_clb305	46	32	0	#305
+stratix_clb306	45	32	0	#306
+stratix_clb307	44	32	0	#307
+stratix_clb308	32	38	0	#308
+stratix_clb309	44	31	0	#309
+stratix_clb310	43	30	0	#310
+stratix_clb311	43	31	0	#311
+stratix_clb312	42	31	0	#312
+stratix_clb313	41	31	0	#313
+stratix_clb314	40	30	0	#314
+stratix_clb315	40	29	0	#315
+stratix_clb316	40	28	0	#316
+stratix_clb317	40	27	0	#317
+stratix_clb318	37	27	0	#318
+stratix_clb319	32	37	0	#319
+stratix_clb320	37	23	0	#320
+stratix_clb321	36	23	0	#321
+stratix_clb322	36	22	0	#322
+stratix_clb323	37	22	0	#323
+stratix_clb324	35	23	0	#324
+stratix_clb325	35	22	0	#325
+stratix_clb326	34	22	0	#326
+stratix_clb327	34	21	0	#327
+stratix_clb328	35	21	0	#328
+stratix_clb329	35	20	0	#329
+stratix_clb330	32	36	0	#330
+stratix_clb331	36	19	0	#331
+stratix_clb332	35	19	0	#332
+stratix_clb333	36	18	0	#333
+stratix_clb334	37	18	0	#334
+stratix_clb335	37	19	0	#335
+stratix_clb336	36	20	0	#336
+stratix_clb337	37	21	0	#337
+stratix_clb338	40	23	0	#338
+stratix_clb339	40	24	0	#339
+stratix_clb340	40	25	0	#340
+stratix_clb341	32	35	0	#341
+stratix_clb342	40	26	0	#342
+stratix_clb343	41	25	0	#343
+stratix_clb344	42	25	0	#344
+stratix_clb345	42	26	0	#345
+stratix_clb346	42	27	0	#346
+stratix_clb347	46	27	0	#347
+stratix_clb348	48	28	0	#348
+stratix_clb349	49	28	0	#349
+stratix_clb350	52	28	0	#350
+stratix_clb351	53	30	0	#351
+stratix_clb352	31	35	0	#352
+stratix_clb353	53	31	0	#353
+stratix_clb354	54	31	0	#354
+stratix_clb355	54	30	0	#355
+stratix_clb356	55	30	0	#356
+stratix_clb357	56	30	0	#357
+stratix_clb358	56	29	0	#358
+stratix_clb359	55	31	0	#359
+stratix_clb360	55	32	0	#360
+stratix_clb361	56	32	0	#361
+stratix_clb362	56	34	0	#362
+stratix_clb363	31	36	0	#363
+stratix_clb364	55	34	0	#364
+stratix_clb365	55	33	0	#365
+stratix_clb366	55	35	0	#366
+stratix_clb367	55	36	0	#367
+stratix_clb368	56	36	0	#368
+stratix_clb369	56	37	0	#369
+stratix_clb370	55	37	0	#370
+stratix_clb371	55	38	0	#371
+stratix_clb372	54	37	0	#372
+stratix_clb373	54	36	0	#373
+stratix_clb374	31	37	0	#374
+stratix_clb375	53	37	0	#375
+stratix_clb376	52	37	0	#376
+stratix_clb377	52	38	0	#377
+stratix_clb378	49	38	0	#378
+stratix_clb379	49	37	0	#379
+stratix_clb380	48	37	0	#380
+stratix_clb381	47	37	0	#381
+stratix_clb382	46	38	0	#382
+stratix_clb383	43	38	0	#383
+stratix_clb384	42	38	0	#384
+stratix_clb385	31	34	0	#385
+stratix_clb386	41	38	0	#386
+stratix_clb387	37	37	0	#387
+stratix_clb388	36	37	0	#388
+stratix_clb389	36	38	0	#389
+stratix_clb390	35	38	0	#390
+stratix_clb391	34	38	0	#391
+stratix_clb392	34	37	0	#392
+stratix_clb393	33	35	0	#393
+stratix_clb394	32	21	0	#394
+stratix_clb395	31	22	0	#395
+stratix_clb396	31	23	0	#396
+stratix_clb397	31	24	0	#397
+stratix_clb398	33	24	0	#398
+stratix_clb399	33	23	0	#399
+stratix_clb400	33	21	0	#400
+stratix_clb401	34	26	0	#401
+stratix_clb402	33	36	0	#402
+stratix_clb403	34	25	0	#403
+stratix_clb404	34	24	0	#404
+stratix_clb405	36	24	0	#405
+stratix_clb406	37	25	0	#406
+stratix_clb407	36	25	0	#407
+stratix_clb408	35	25	0	#408
+stratix_clb409	36	26	0	#409
+stratix_clb410	36	27	0	#410
+stratix_clb411	35	28	0	#411
+stratix_clb412	35	27	0	#412
+stratix_clb413	33	37	0	#413
+stratix_clb414	36	28	0	#414
+stratix_clb415	37	29	0	#415
+stratix_clb416	37	31	0	#416
+stratix_clb417	36	31	0	#417
+stratix_clb418	36	30	0	#418
+stratix_clb419	36	29	0	#419
+stratix_clb420	40	31	0	#420
+stratix_clb421	40	32	0	#421
+stratix_clb422	41	32	0	#422
+stratix_clb423	42	32	0	#423
+stratix_clb424	32	23	0	#424
+stratix_clb425	32	31	0	#425
+stratix_clb426	47	35	0	#426
+stratix_clb427	48	35	0	#427
+stratix_clb428	48	36	0	#428
+stratix_clb429	49	35	0	#429
+stratix_clb430	49	36	0	#430
+stratix_clb431	52	36	0	#431
+stratix_clb432	52	35	0	#432
+stratix_clb433	53	36	0	#433
+stratix_clb434	53	35	0	#434
+stratix_clb435	54	35	0	#435
+stratix_clb436	33	30	0	#436
+stratix_clb437	54	34	0	#437
+stratix_clb438	53	33	0	#438
+stratix_clb439	53	34	0	#439
+stratix_clb440	54	33	0	#440
+stratix_clb441	54	32	0	#441
+stratix_clb442	53	32	0	#442
+stratix_clb443	52	32	0	#443
+stratix_clb444	49	32	0	#444
+stratix_clb445	48	32	0	#445
+stratix_clb446	47	34	0	#446
+stratix_clb447	34	29	0	#447
+stratix_clb448	48	34	0	#448
+stratix_clb449	49	34	0	#449
+stratix_clb450	48	33	0	#450
+stratix_clb451	49	33	0	#451
+stratix_clb452	49	31	0	#452
+stratix_clb453	49	30	0	#453
+stratix_clb454	52	30	0	#454
+stratix_clb455	52	29	0	#455
+stratix_clb456	49	29	0	#456
+stratix_clb457	48	30	0	#457
+stratix_clb458	35	29	0	#458
+stratix_clb459	48	29	0	#459
+stratix_clb460	47	29	0	#460
+stratix_clb461	47	28	0	#461
+stratix_clb462	45	27	0	#462
+stratix_clb463	45	26	0	#463
+stratix_clb464	46	25	0	#464
+stratix_clb465	44	25	0	#465
+stratix_clb466	45	25	0	#466
+stratix_clb467	44	26	0	#467
+stratix_clb468	43	26	0	#468
+stratix_clb469	34	28	0	#469
+stratix_clb470	43	25	0	#470
+stratix_clb471	43	27	0	#471
+stratix_clb472	41	26	0	#472
+stratix_clb473	41	27	0	#473
+stratix_clb474	41	28	0	#474
+stratix_clb475	41	29	0	#475
+stratix_clb476	42	29	0	#476
+stratix_clb477	43	29	0	#477
+stratix_clb478	44	29	0	#478
+stratix_clb479	44	27	0	#479
+stratix_clb480	35	26	0	#480
+stratix_clb481	43	28	0	#481
+stratix_clb482	44	28	0	#482
+stratix_clb483	45	28	0	#483
+stratix_clb484	45	29	0	#484
+stratix_clb485	46	29	0	#485
+stratix_clb486	46	30	0	#486
+stratix_clb487	45	30	0	#487
+stratix_clb488	45	31	0	#488
+stratix_clb489	47	30	0	#489
+stratix_clb490	47	31	0	#490
+stratix_clb491	34	27	0	#491
+stratix_clb492	47	32	0	#492
+stratix_clb493	47	33	0	#493
+stratix_clb494	45	33	0	#494
+stratix_clb495	45	34	0	#495
+stratix_clb496	46	34	0	#496
+stratix_clb497	46	35	0	#497
+stratix_clb498	44	36	0	#498
+stratix_clb499	45	36	0	#499
+stratix_clb500	45	35	0	#500
+stratix_clb501	44	35	0	#501
+stratix_clb502	32	25	0	#502
+stratix_clb503	43	35	0	#503
+stratix_clb504	42	35	0	#504
+stratix_clb505	41	35	0	#505
+stratix_clb506	40	35	0	#506
+stratix_clb507	37	35	0	#507
+stratix_clb508	37	34	0	#508
+stratix_clb509	36	33	0	#509
+stratix_clb510	36	32	0	#510
+stratix_clb511	37	32	0	#511
+stratix_clb512	37	33	0	#512
+stratix_clb513	32	24	0	#513
+stratix_clb514	36	34	0	#514
+stratix_clb515	35	34	0	#515
+stratix_clb516	34	33	0	#516
+stratix_clb517	36	35	0	#517
+stratix_clb518	36	36	0	#518
+stratix_clb519	35	36	0	#519
+stratix_clb520	35	35	0	#520
+stratix_clb521	34	35	0	#521
+stratix_clb522	32	29	0	#522
+stratix_clb523	33	29	0	#523
+stratix_clb524	33	28	0	#524
+stratix_clb525	32	32	0	#525
+stratix_clb526	31	32	0	#526
+stratix_clb527	31	33	0	#527
+stratix_clb528	33	33	0	#528
+stratix_clb529	32	33	0	#529
+stratix_clb530	34	34	0	#530
+stratix_clb531	33	32	0	#531
+stratix_clb532	34	31	0	#532
+stratix_clb533	34	30	0	#533
+stratix_clb534	35	30	0	#534
+stratix_clb535	35	32	0	#535
+stratix_clb536	35	33	0	#536
+stratix_clb537	40	33	0	#537
+stratix_clb538	41	34	0	#538
+stratix_clb539	40	34	0	#539
+stratix_clb540	40	37	0	#540
+stratix_clb541	33	34	0	#541
+stratix_clb542	40	38	0	#542
+stratix_clb543	41	36	0	#543
+stratix_clb544	42	36	0	#544
+stratix_clb545	43	36	0	#545
+stratix_clb546	43	37	0	#546
+stratix_clb547	44	37	0	#547
+stratix_clb548	45	37	0	#548
+stratix_clb549	45	38	0	#549
+stratix_clb550	47	38	0	#550
+stratix_clb551	47	36	0	#551
+stratix_clb552	107	13	0	#552
+stratix_clb553	108	11	0	#553
+stratix_clb554	110	14	0	#554
+stratix_clb555	108	13	0	#555
+stratix_clb556	108	12	0	#556
+stratix_clb557	105	13	0	#557
+stratix_clb558	110	16	0	#558
+stratix_clb559	105	12	0	#559
+stratix_clb560	111	15	0	#560
+stratix_clb561	114	14	0	#561
+stratix_clb562	112	15	0	#562
+stratix_clb563	117	15	0	#563
+stratix_clb564	111	14	0	#564
+stratix_clb565	107	17	0	#565
+stratix_clb566	109	15	0	#566
+stratix_clb567	105	15	0	#567
+stratix_clb568	109	14	0	#568
+stratix_clb569	105	16	0	#569
+stratix_clb570	104	16	0	#570
+stratix_clb571	104	15	0	#571
+stratix_clb572	112	16	0	#572
+stratix_clb573	105	14	0	#573
+stratix_clb574	111	18	0	#574
+stratix_clb575	111	16	0	#575
+stratix_clb576	112	14	0	#576
+stratix_clb577	111	12	0	#577
+stratix_clb578	113	12	0	#578
+stratix_clb579	114	13	0	#579
+stratix_clb580	112	12	0	#580
+stratix_clb581	115	14	0	#581
+stratix_clb582	111	13	0	#582
+stratix_clb583	112	13	0	#583
+stratix_clb584	113	14	0	#584
+stratix_clb585	113	13	0	#585
+stratix_clb586	114	11	0	#586
+stratix_ppll587	166	4	0	#587
+stratix_ppll588	166	5	0	#588
+stratix_clb589	46	18	0	#589
+stratix_clb590	43	18	0	#590
+stratix_clb591	46	17	0	#591
+stratix_clb592	46	19	0	#592
+stratix_clb593	48	18	0	#593
+stratix_clb594	45	15	0	#594
+stratix_clb595	44	14	0	#595
+stratix_clb596	41	22	0	#596
+stratix_clb597	44	18	0	#597
+stratix_clb598	41	11	0	#598
+stratix_clb599	40	18	0	#599
+stratix_clb600	41	15	0	#600
+stratix_clb601	41	16	0	#601
+stratix_clb602	45	19	0	#602
+stratix_clb603	45	20	0	#603
+stratix_clb604	41	23	0	#604
+stratix_clb605	43	22	0	#605
+stratix_clb606	43	21	0	#606
+stratix_clb607	43	19	0	#607
+stratix_clb608	45	23	0	#608
+stratix_clb609	45	24	0	#609
+stratix_clb610	42	16	0	#610
+stratix_clb611	42	17	0	#611
+stratix_clb612	42	18	0	#612
+stratix_clb613	41	17	0	#613
+stratix_clb614	41	19	0	#614
+stratix_clb615	41	18	0	#615
+stratix_clb616	45	21	0	#616
+stratix_clb617	46	22	0	#617
+stratix_clb618	42	23	0	#618
+stratix_clb619	42	15	0	#619
+stratix_clb620	45	17	0	#620
+stratix_clb621	45	18	0	#621
+stratix_clb622	40	19	0	#622
+stratix_clb623	41	13	0	#623
+stratix_clb624	44	19	0	#624
+stratix_clb625	43	17	0	#625
+stratix_clb626	40	17	0	#626
+stratix_clb627	45	16	0	#627
+stratix_clb628	43	20	0	#628
+stratix_clb629	43	14	0	#629
+stratix_clb630	41	14	0	#630
+stratix_clb631	42	14	0	#631
+stratix_clb632	45	22	0	#632
+stratix_clb633	47	20	0	#633
+stratix_clb634	47	13	0	#634
+stratix_clb635	46	16	0	#635
+stratix_clb636	48	13	0	#636
+stratix_clb637	46	12	0	#637
+stratix_clb638	45	13	0	#638
+stratix_clb639	44	13	0	#639
+stratix_clb640	46	14	0	#640
+stratix_clb641	47	12	0	#641
+stratix_clb642	47	11	0	#642
+stratix_clb643	44	12	0	#643
+stratix_clb644	48	14	0	#644
+stratix_clb645	46	13	0	#645
+stratix_clb646	48	12	0	#646
+stratix_clb647	47	14	0	#647
+stratix_clb648	46	15	0	#648
+stratix_clb649	45	12	0	#649
+stratix_clb650	45	14	0	#650
+stratix_clb651	48	15	0	#651
+stratix_clb652	49	13	0	#652
+stratix_clb653	44	11	0	#653
+stratix_clb654	52	13	0	#654
+stratix_clb655	53	13	0	#655
+stratix_clb656	49	11	0	#656
+stratix_clb657	53	12	0	#657
+stratix_clb658	49	15	0	#658
+stratix_clb659	49	17	0	#659
+stratix_clb660	49	16	0	#660
+stratix_clb661	49	14	0	#661
+stratix_clb662	47	15	0	#662
+stratix_clb663	48	16	0	#663
+stratix_clb664	49	12	0	#664
+stratix_clb665	53	14	0	#665
+stratix_clb666	49	18	0	#666
+stratix_clb667	52	15	0	#667
+stratix_clb668	135	12	0	#668
+stratix_clb669	134	13	0	#669
+stratix_clb670	136	13	0	#670
+stratix_clb671	136	11	0	#671
+stratix_clb672	139	11	0	#672
+stratix_clb673	137	12	0	#673
+stratix_clb674	137	11	0	#674
+stratix_clb675	137	13	0	#675
+stratix_clb676	133	12	0	#676
+stratix_clb677	136	14	0	#677
+stratix_clb678	140	11	0	#678
+stratix_clb679	136	12	0	#679
+stratix_clb680	132	13	0	#680
+stratix_clb681	32	28	0	#681
+stratix_clb682	32	30	0	#682
+stratix_clb683	32	26	0	#683
+stratix_clb684	33	31	0	#684
+stratix_clb685	32	27	0	#685
+stratix_clb686	31	25	0	#686
+stratix_clb687	33	25	0	#687
+stratix_clb688	41	12	0	#688
+stratix_clb689	40	16	0	#689
+stratix_clb690	40	11	0	#690
+stratix_clb691	40	15	0	#691
+stratix_clb692	33	14	0	#692
+stratix_clb693	31	13	0	#693
+stratix_clb694	31	12	0	#694
+stratix_clb695	35	11	0	#695
+stratix_clb696	31	16	0	#696
+stratix_clb697	35	14	0	#697
+stratix_clb698	34	18	0	#698
+stratix_clb699	34	20	0	#699
+stratix_clb700	41	30	0	#700
+stratix_clb701	35	15	0	#701
+stratix_clb702	33	19	0	#702
+stratix_clb703	33	16	0	#703
+stratix_clb704	36	15	0	#704
+stratix_clb705	35	16	0	#705
+stratix_clb706	37	17	0	#706
+stratix_clb707	35	18	0	#707
+stratix_clb708	35	17	0	#708
+stratix_clb709	37	14	0	#709
+stratix_clb710	35	12	0	#710
+stratix_clb711	36	12	0	#711
+stratix_clb712	37	11	0	#712
+stratix_clb713	37	13	0	#713
+stratix_clb714	36	13	0	#714
+stratix_clb715	37	15	0	#715
+stratix_clb716	36	14	0	#716
+stratix_clb717	34	11	0	#717
+stratix_clb718	32	11	0	#718
+stratix_clb719	32	12	0	#719
+stratix_clb720	31	11	0	#720
+stratix_clb721	24	26	0	#721
+stratix_clb722	25	27	0	#722
+stratix_clb723	26	31	0	#723
+stratix_clb724	26	30	0	#724
+stratix_clb725	24	25	0	#725
+stratix_clb726	24	27	0	#726
+stratix_clb727	25	30	0	#727
+stratix_clb728	26	33	0	#728
+stratix_clb729	29	25	0	#729
+stratix_clb730	28	26	0	#730
+stratix_clb731	27	25	0	#731
+stratix_clb732	29	26	0	#732
+stratix_clb733	28	37	0	#733
+stratix_clb734	29	37	0	#734
+stratix_clb735	29	30	0	#735
+stratix_clb736	29	29	0	#736
+stratix_clb737	27	33	0	#737
+stratix_clb738	26	34	0	#738
+stratix_clb739	29	33	0	#739
+stratix_clb740	28	38	0	#740
+stratix_clb741	27	36	0	#741
+stratix_clb742	26	32	0	#742
+stratix_clb743	29	27	0	#743
+stratix_clb744	28	31	0	#744
+stratix_clb745	29	35	0	#745
+stratix_clb746	29	31	0	#746
+stratix_clb747	28	32	0	#747
+stratix_clb748	27	32	0	#748
+stratix_clb749	29	36	0	#749
+stratix_clb750	31	27	0	#750
+stratix_clb751	28	34	0	#751
+stratix_clb752	27	34	0	#752
+stratix_clb753	29	32	0	#753
+stratix_clb754	28	27	0	#754
+stratix_clb755	28	25	0	#755
+stratix_clb756	26	25	0	#756
+stratix_clb757	27	27	0	#757
+stratix_clb758	28	36	0	#758
+stratix_clb759	28	35	0	#759
+stratix_clb760	24	16	0	#760
+stratix_clb761	25	12	0	#761
+stratix_clb762	24	12	0	#762
+stratix_clb763	24	15	0	#763
+stratix_clb764	24	17	0	#764
+stratix_clb765	25	17	0	#765
+stratix_clb766	28	13	0	#766
+stratix_clb767	24	14	0	#767
+stratix_clb768	25	14	0	#768
+stratix_clb769	29	11	0	#769
+stratix_clb770	28	11	0	#770
+stratix_clb771	26	14	0	#771
+stratix_clb772	27	15	0	#772
+stratix_clb773	21	11	0	#773
+stratix_clb774	25	15	0	#774
+stratix_clb775	26	13	0	#775
+stratix_clb776	26	15	0	#776
+stratix_clb777	26	11	0	#777
+stratix_clb778	27	11	0	#778
+stratix_clb779	26	17	0	#779
+stratix_clb780	25	18	0	#780
+stratix_clb781	28	15	0	#781
+stratix_clb782	25	11	0	#782
+stratix_clb783	25	13	0	#783
+stratix_clb784	26	16	0	#784
+stratix_clb785	24	11	0	#785
+stratix_clb786	24	13	0	#786
+stratix_clb787	26	12	0	#787
+stratix_clb788	27	12	0	#788
+stratix_clb789	21	13	0	#789
+stratix_clb790	21	12	0	#790
+stratix_clb791	24	33	0	#791
+stratix_clb792	24	32	0	#792
+stratix_clb793	24	34	0	#793
+stratix_clb794	21	34	0	#794
+stratix_clb795	21	33	0	#795
+stratix_clb796	25	32	0	#796
+stratix_clb797	24	31	0	#797
+stratix_clb798	21	32	0	#798
+stratix_clb799	25	29	0	#799
+stratix_clb800	21	25	0	#800
+stratix_clb801	25	31	0	#801
+stratix_clb802	27	35	0	#802
+stratix_clb803	24	35	0	#803
+stratix_clb804	25	36	0	#804
+stratix_clb805	24	37	0	#805
+stratix_clb806	24	36	0	#806
+stratix_clb807	21	37	0	#807
+stratix_clb808	21	38	0	#808
+stratix_clb809	24	38	0	#809
+stratix_clb810	25	38	0	#810
+stratix_clb811	26	28	0	#811
+stratix_clb812	27	29	0	#812
+stratix_clb813	27	28	0	#813
+stratix_clb814	21	29	0	#814
+stratix_clb815	26	27	0	#815
+stratix_clb816	28	30	0	#816
+stratix_clb817	26	29	0	#817
+stratix_clb818	21	30	0	#818
+stratix_clb819	28	28	0	#819
+stratix_clb820	26	26	0	#820
+stratix_clb821	24	30	0	#821
+stratix_clb822	21	27	0	#822
+stratix_clb823	25	28	0	#823
+stratix_clb824	21	28	0	#824
+stratix_clb825	24	28	0	#825
+stratix_clb826	24	29	0	#826
+stratix_clb827	57	13	0	#827
+stratix_clb828	98	30	0	#828
+stratix_clb829	116	43	0	#829
+sys_rst_n	input	B18		stratix_pad830	163	101	6	#830
+sys_clk	input	AB12		stratix_pad831	83	0	0	#831
+sdram_we_n	output	P1		stratix_pad832	0	33	0	#832
+sdram_ras_n	output	R1		stratix_pad833	0	32	2	#833
+sdram_dq[9]	bidir	W3		stratix_pad834	0	7	2	#834
+sdram_dq[8]	bidir	U4		stratix_pad835	0	15	4	#835
+sdram_dq[7]	bidir	P5		stratix_pad836	0	19	0	#836
+sdram_dq[6]	bidir	P7		stratix_pad837	0	21	2	#837
+sdram_dq[5]	bidir	T7		stratix_pad838	0	8	2	#838
+sdram_dq[4]	bidir	U8		stratix_pad839	0	9	4	#839
+sdram_dq[3]	bidir	R8		stratix_pad840	0	15	0	#840
+sdram_dq[2]	bidir	R7		stratix_pad841	0	9	0	#841
+sdram_dq[1]	bidir	T8		stratix_pad842	0	10	2	#842
+sdram_dq[15]	bidir	AA2		stratix_pad843	1	0	0	#843
+sdram_dq[14]	bidir	V5		stratix_pad844	0	12	0	#844
+sdram_dq[13]	bidir	AB4		stratix_pad845	0	11	2	#845
+sdram_dq[12]	bidir	Y4		stratix_pad846	0	2	2	#846
+sdram_dq[11]	bidir	Y3		stratix_pad847	0	4	0	#847
+sdram_dq[10]	bidir	W4		stratix_pad848	0	3	2	#848
+sdram_dq[0]	bidir	U6		stratix_pad849	0	13	2	#849
+sdram_cs_n	output	T1		stratix_pad850	0	31	4	#850
+sdram_clk	output	P3		stratix_pad851	0	49	4	#851
+sdram_cke	output	N4		stratix_pad852	0	49	0	#852
+sdram_cas_n	output	P2		stratix_pad853	0	34	2	#853
+sdram_ba[1]	output	U1		stratix_pad854	0	29	0	#854
+sdram_ba[0]	output	T2		stratix_pad855	0	31	0	#855
+sdram_addr[9]	output	AB2		stratix_pad856	1	0	6	#856
+sdram_addr[8]	output	Y2		stratix_pad857	0	1	0	#857
+sdram_addr[7]	output	Y1		stratix_pad858	0	1	4	#858
+sdram_addr[6]	output	V1		stratix_pad859	0	28	0	#859
+sdram_addr[5]	output	V3		stratix_pad860	0	14	2	#860
+sdram_addr[4]	output	T6		stratix_pad861	0	17	0	#861
+sdram_addr[3]	output	U3		stratix_pad862	0	30	2	#862
+sdram_addr[2]	output	T4		stratix_pad863	0	26	2	#863
+sdram_addr[1]	output	T3		stratix_pad864	0	25	0	#864
+sdram_addr[12]	output	AA4		stratix_pad865	0	12	4	#865
+sdram_addr[11]	output	AB3		stratix_pad866	0	4	4	#866
+sdram_addr[10]	output	R3		stratix_pad867	0	33	4	#867
+sdram_addr[0]	output	R4		stratix_pad868	0	18	2	#868
+sccb_sda	bidir	P17		stratix_pad869	163	0	0	#869
+sccb_scl	output	R15		stratix_pad870	159	0	0	#870
+ov5640_xclk	output	L17		stratix_pad871	165	35	4	#871
+ov5640_vsync	input	R16		stratix_pad872	159	0	6	#872
+ov5640_rst_n	output	AB20		stratix_pad873	165	2	4	#873
+ov5640_pwdn	output	V20		stratix_pad874	155	0	6	#874
+ov5640_pclk	input	K17		stratix_pad875	165	35	0	#875
+ov5640_href	input	R19		stratix_pad876	157	0	6	#876
+ov5640_data[7]	input	P19		stratix_pad877	165	2	0	#877
+ov5640_data[6]	input	T18		stratix_pad878	153	0	6	#878
+ov5640_data[5]	input	AB19		stratix_pad879	165	1	2	#879
+ov5640_data[4]	input	Y19		stratix_pad880	161	0	0	#880
+ov5640_data[3]	input	R17		stratix_pad881	157	0	0	#881
+ov5640_data[2]	input	P18		stratix_pad882	163	0	6	#882
+ov5640_data[1]	input	Y20		stratix_pad883	161	0	6	#883
+ov5640_data[0]	input	V19		stratix_pad884	155	0	0	#884
+hdmi_vs	output	B22		stratix_pad885	165	67	0	#885
+hdmi_sda	bidir	AA20		stratix_pad886	165	6	0	#886
+hdmi_scl	output	AB21		stratix_pad887	165	7	2	#887
+hdmi_rst_n	output	B21		stratix_pad888	165	67	4	#888
+hdmi_rgb[9]	output	T22		stratix_pad889	165	22	2	#889
+hdmi_rgb[8]	output	R22		stratix_pad890	165	23	0	#890
+hdmi_rgb[7]	output	P22		stratix_pad891	165	25	4	#891
+hdmi_rgb[6]	output	P21		stratix_pad892	165	24	2	#892
+hdmi_rgb[5]	output	N22		stratix_pad893	165	26	2	#893
+hdmi_rgb[4]	output	M22		stratix_pad894	165	29	4	#894
+hdmi_rgb[3]	output	V17		stratix_pad895	143	0	4	#895
+hdmi_rgb[2]	output	V18		stratix_pad896	143	0	6	#896
+hdmi_rgb[23]	output	AA21		stratix_pad897	165	4	4	#897
+hdmi_rgb[22]	output	Y21		stratix_pad898	165	9	0	#898
+hdmi_rgb[21]	output	AA22		stratix_pad899	165	4	0	#899
+hdmi_rgb[20]	output	W20		stratix_pad900	165	17	2	#900
+hdmi_rgb[1]	output	T19		stratix_pad901	3	0	0	#901
+hdmi_rgb[19]	output	Y22		stratix_pad902	165	10	2	#902
+hdmi_rgb[18]	output	U20		stratix_pad903	165	20	4	#903
+hdmi_rgb[17]	output	W22		stratix_pad904	165	18	4	#904
+hdmi_rgb[16]	output	V21		stratix_pad905	165	18	0	#905
+hdmi_rgb[15]	output	V22		stratix_pad906	165	19	2	#906
+hdmi_rgb[14]	output	U22		stratix_pad907	165	20	0	#907
+hdmi_rgb[13]	output	K22		stratix_pad908	165	30	2	#908
+hdmi_rgb[12]	output	K21		stratix_pad909	165	29	0	#909
+hdmi_rgb[11]	output	T20		stratix_pad910	3	0	6	#910
+hdmi_rgb[10]	output	T21		stratix_pad911	165	21	2	#911
+hdmi_rgb[0]	output	J22		stratix_pad912	165	51	2	#912
+hdmi_hs	output	R20		stratix_pad913	165	23	4	#913
+hdmi_de	output	M21		stratix_pad914	165	28	2	#914
+hdmi_clk	output	M18		stratix_pad915	165	33	0	#915
+hdmi_cfg_done	output	C20		stratix_pad916	165	70	4	#916
+gmii_txen	output	AB18		stratix_pad917	137	0	0	#917
+gmii_txd[7]	output	AB13		stratix_pad918	69	0	0	#918
+gmii_txd[6]	output	R13		stratix_pad919	73	0	6	#919
+gmii_txd[5]	output	U13		stratix_pad920	75	0	0	#920
+gmii_txd[4]	output	AA10		stratix_pad921	75	0	6	#921
+gmii_txd[3]	output	AB10		stratix_pad922	77	0	0	#922
+gmii_txd[2]	output	Y11		stratix_pad923	79	0	6	#923
+gmii_txd[1]	output	AB11		stratix_pad924	81	0	0	#924
+gmii_txd[0]	output	AA12		stratix_pad925	81	0	6	#925
+gmii_tx_clk	output	V15		stratix_pad926	47	0	0	#926
+stratix_bitprobe927	165	101	0	#927

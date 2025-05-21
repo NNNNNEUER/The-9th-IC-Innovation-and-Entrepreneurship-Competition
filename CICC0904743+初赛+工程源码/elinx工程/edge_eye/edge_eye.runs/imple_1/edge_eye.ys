@@ -1,0 +1,24 @@
+#this script is auto-generted by generator_yosys_shells.py
+set DESIGN_PATH=G:/jichuangsai/elinx_workspace/edge_eye_final(3)
+set prj_name=edge_eye
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_crc.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ctrl.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_input.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_ir_register.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_jtag_state_machine.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_output_controller_circular.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_output_jtag_arbit.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_parameter.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_ram.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_ram_controller_circular.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_sampleclk_to_TCK.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_ctrl.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_signaltap_inst.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_TCK_to_sampleclk.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_comparator_element.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/bitprobe/comet_ela_trigger_state_circular.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/comet_ela_top.v
+read_verilog %DESIGN_PATH%/edge_eye.runs/imple_1/edge_eye_m.vqm
+synth_stratix -top comet_ela_top -family eHiChip6 -vqm %DESIGN_PATH%/edge_eye.runs/imple_1/edge_eye.vqm

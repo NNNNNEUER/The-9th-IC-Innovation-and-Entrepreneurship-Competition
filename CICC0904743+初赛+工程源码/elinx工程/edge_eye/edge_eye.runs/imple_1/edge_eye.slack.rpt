@@ -1,0 +1,10 @@
+Type	Slack(ns)	Actual Fmax(MHz)
+clock name:sys_clk Fmax:354.988 sync_slack:17.183 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|clk_gen2:clk_gen2_inst|altpll:altpll_component|_clk4 Fmax:172.325 sync_slack:7.530 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk0 Fmax:140.371 sync_slack:0.876 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk0 clock name:\edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk2 sync_slack:5.779 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk2 Fmax:144.383 sync_slack:33.074 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|clk_gen:clk_gen|altpll:altpll_component|_clk3 Fmax:142.167 sync_slack:12.966 async_slack:N/A
+clock name:ov5640_pclk Fmax:122.354 sync_slack:991.827 async_slack:N/A
+clock name:\edge_eye_m:user_design_inst|hdmi_top:hdmi_top_inst|hdmi_i2c:hdmi_i2c_inst|hdmi_i2c_ctrl:hdmi_i2c_ctrl_inst|i2c_clk Fmax:239.406 sync_slack:995.823 async_slack:N/A
+all_path_min_slack:0.876  all_route_min_slack:0.876

@@ -1,0 +1,11 @@
+Synthesis Status : Successful
+eLinx Version : 3.0 
+Top-level Entity Name : comet_ela_top
+Total LUTs : 6132
+Total FFs : 4685
+Total CLBs : 776
+Total Memorys : 52
+Total DSPs : 0
+Total PLLs : 2
+Total Pins : 97
+Device Min Height : 4

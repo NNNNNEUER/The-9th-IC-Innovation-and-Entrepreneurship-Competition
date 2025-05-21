@@ -1,0 +1,8 @@
+sign_cb,add_cb_0_18b,add_cb_1_18b
+sign_cr,add_cr_0_18b,add_cr_1_18b
+o_y_8b,y_tmp,y_tmp
+o_cb_8b,cb_tmp,cb_tmp
+o_cr_8b,cr_tmp,cr_tmp
+o_h_sync,i_h_sync_delay_3
+o_v_sync,i_v_sync_delay_3
+o_data_en,i_data_en_delay_3

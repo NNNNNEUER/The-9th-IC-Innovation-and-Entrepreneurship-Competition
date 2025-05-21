@@ -1,0 +1,6 @@
+hsync,cnt_h,H_SYNC
+vsync,cnt_v,V_SYNC
+rgb_valid,cnt_h,H_SYNC,H_BACK,H_LEFT,cnt_h,H_SYNC,H_BACK,H_LEFT,H_VALID,cnt_v,V_SYNC,V_BACK,V_TOP,cnt_v,V_SYNC,V_BACK,V_TOP,V_VALID
+pix_data_req,cnt_h,H_SYNC,H_BACK,H_LEFT,cnt_h,H_SYNC,H_BACK,H_LEFT,H_VALID,cnt_v,V_SYNC,V_BACK,V_TOP,cnt_v,V_SYNC,V_BACK,V_TOP,V_VALID
+rgb,rgb_valid,pix_data
+de,rgb_valid

@@ -1,0 +1,2 @@
+sclk_plus,div_cnt,SCL_CNT_M
+i2c_sdat,!i2c_sdat_o,i2c_sdat_oe,!Rst_n,&Cmd,&Cmd,&Cmd,&Cmd,&Cmd,&Cmd,&Cmd,&Cmd,&Cmd

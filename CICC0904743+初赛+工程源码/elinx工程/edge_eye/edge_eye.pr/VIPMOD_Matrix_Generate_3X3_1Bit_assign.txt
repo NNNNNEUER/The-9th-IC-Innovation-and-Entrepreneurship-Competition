@@ -1,0 +1,6 @@
+shift_clk_en,per_frame_clken
+read_frame_href,per_frame_href_r
+read_frame_clken,per_frame_clken_r
+matrix_frame_vsync,per_frame_vsync_r
+matrix_frame_href,per_frame_href_r
+matrix_frame_clken,per_frame_clken_r,!rst_n

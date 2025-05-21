@@ -1,0 +1,29 @@
+2025-05-20 16:14:24,050 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2025-05-20 16:14:24,232 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2025-05-20 16:14:24,509 [INFO] [ARC_Proc_3]:Deserialize cfgcells ends.
+2025-05-20 16:14:24,546 [INFO] [ARC_Proc_4]:Deserialize configmode ends.
+2025-05-20 16:14:25,085 [INFO] [UDM_Load_0]:Load eLinx design check point(.ecp) complete.
+2025-05-20 16:14:25,096 [INFO] [UCM_UCM_15]:Assignment overwrited: location=PIN_AB12, was PIN_AB12.
+2025-05-20 16:14:25,096 [INFO] [UCM_UCM_15]:Assignment overwrited: ENABLE_BUS_HOLD_CIRCUITRY=OFF, was OFF.
+2025-05-20 16:14:25,110 [INFO] [UDM_IP_1]:Begin parsing IP file(s)...
+2025-05-20 16:14:25,120 [INFO] [UDM_IP_1]:parse_ip_specific complete.
+2025-05-20 16:14:25,153 [INFO] [UDM_Mem_46]:Memory initial file [ db\edge_eye.ram0_ov5640_init_table_rgb_435d6be3.hdl.mif ] is in db file !
+2025-05-20 16:14:25,155 [INFO] [UDM_Mem_1]:parse_mem_initial complete.
+2025-05-20 16:14:25,155 [INFO] [BitGen_Proc_1]:Launched cram extraction...
+2025-05-20 16:14:27,824 [INFO] [BitGen_Proc_5]:Cram configuration total time consumed 2.657 second(s).
+2025-05-20 16:14:27,824 [INFO] [BitGen_Proc_6]:Launched bram extraction...
+2025-05-20 16:14:27,825 [INFO] [BitGen_Proc_7]:Bram extraction success.
+2025-05-20 16:14:27,825 [INFO] [BitGen_Proc_8]:Launched bram configuration...
+2025-05-20 16:14:27,833 [INFO] [BitGen_Proc_9]:Bram configuration success.
+2025-05-20 16:14:27,833 [INFO] [BitGen_Proc_10]:Bram processing total time consumed 0.015 second(s).
+2025-05-20 16:14:27,833 [DEBUG] [BitGen_Proc_9]:FST(Cram fast simulation) begin.
+2025-05-20 16:14:28,339 [INFO] [BitGen_Proc_9]:FST(Cram fast simulation) file output success.
+2025-05-20 16:14:28,341 [DEBUG] [BitGen_Proc_9]:MIN(Bram fast simulation) begin.
+2025-05-20 16:14:28,425 [INFO] [BitGen_Proc_9]:MIN(Bram fast simulation) file output success.
+2025-05-20 16:14:28,426 [INFO] [BitGen_Proc_20]:Head information:Device=EQ6HL130;Package=CSG484_H;Top=edge_eye;Version=eLinx3.0.7;Date=2025/05/20;Time=16:14:28
+2025-05-20 16:14:35,890 [INFO] [BitGen_Proc_10]:Raw PSK file output success.
+2025-05-20 16:14:37,038 [INFO] [BitGen_Proc_10]:Compressed PSK file output success.
+2025-05-20 16:14:37,038 [INFO] [BitGen_Proc_10]:Compressed PSK file output time consumed 0.406 second(s)
+2025-05-20 16:14:37,054 [INFO] [BitGen_Proc_10]:Bitstream file(s) output success.
+2025-05-20 16:14:37,055 [INFO] [BitGen_Proc_10]:Bitstream file(s) output time consumed 8.629 second(s).
+Bitgen all was well
